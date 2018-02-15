@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <ManifestDocuments>
+    <ManifestDocument>obj/Release/lp/15/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Release/lp/17/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Release/lp/18/jl/AndroidManifest.xml</ManifestDocument>
+  </ManifestDocuments>
+  <NativeLibraries />
+  <Jars>
+    <Jar>obj/Release/lp/11/jl/formsviewgroup.jar</Jar>
+    <Jar>obj/Release/lp/15/jl/bin/classes.jar</Jar>
+    <Jar>obj/Release/lp/17/jl/bin/classes.jar</Jar>
+    <Jar>obj/Release/lp/18/jl/bin/classes.jar</Jar>
+  </Jars>
+</Paths>

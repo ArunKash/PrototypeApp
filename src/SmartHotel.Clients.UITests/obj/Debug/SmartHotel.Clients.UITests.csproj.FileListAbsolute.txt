@@ -1,0 +1,10 @@
+/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients.UITests/bin/Debug/SmartHotel.Clients.UITests.dll
+/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients.UITests/bin/Debug/SmartHotel.Clients.UITests.pdb
+/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients.UITests/bin/Debug/nunit.framework.dll
+/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients.UITests/bin/Debug/Xamarin.UITest.dll
+/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients.UITests/bin/Debug/nunit.framework.xml
+/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients.UITests/bin/Debug/Xamarin.UITest.xml
+/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients.UITests/obj/Debug/SmartHotel.Clients.UITests.csprojResolveAssemblyReference.cache
+/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients.UITests/obj/Debug/SmartHotel.Clients.UITests.csproj.CoreCompileInputs.cache
+/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients.UITests/obj/Debug/SmartHotel.Clients.UITests.dll
+/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients.UITests/obj/Debug/SmartHotel.Clients.UITests.pdb
