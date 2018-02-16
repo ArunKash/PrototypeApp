@@ -6,6 +6,7 @@ using Xamarin.Forms;
 using SmartHotel.Clients.Core.Services.Notification;
 using SmartHotel.Clients.Core.Services.Analytic;
 
+
 namespace SmartHotel.Clients.Core.ViewModels
 {
     public class NotificationsViewModel : ViewModelBase
@@ -15,6 +16,7 @@ namespace SmartHotel.Clients.Core.ViewModels
 
         private ObservableCollection<Models.Notification> _notifications;
         private bool _hasItems;
+        private Microcharts.Chart _temperatureChart;
 
         public NotificationsViewModel(
             INotificationService notificationService,
@@ -47,6 +49,18 @@ namespace SmartHotel.Clients.Core.ViewModels
             }
         }
 
+
+        public Microcharts.Chart TemperatureChart
+        {
+            get { return _temperatureChart; }
+
+            set
+            {
+                _temperatureChart = value;
+                OnPropertyChanged();
+            }
+        }
+
         public ICommand DeleteNotificationCommand => new Command<Models.Notification>(OnDelete);
 
         public override Task InitializeAsync(object navigationData)
@@ -57,8 +71,10 @@ namespace SmartHotel.Clients.Core.ViewModels
                 HasItems = Notifications.Count > 0;
             }
 
-            return base.InitializeAsync(navigationData);
+         return base.InitializeAsync(navigationData);
+
         }
+
 
         private async void OnDelete(Models.Notification notification)
         {

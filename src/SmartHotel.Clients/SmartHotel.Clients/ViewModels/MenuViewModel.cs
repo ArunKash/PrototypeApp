@@ -70,7 +70,8 @@ namespace SmartHotel.Clients.Core.ViewModels
         {
             MenuItems.Add(new Models.MenuItem
             {
-                Title = "Home",
+               // Title = "Home",
+                Title = "Dashboard",
                 MenuItemType = MenuItemType.Home,
                 ViewModelType = typeof(MainViewModel),
                 IsEnabled = true
@@ -78,7 +79,8 @@ namespace SmartHotel.Clients.Core.ViewModels
 
             MenuItems.Add(new Models.MenuItem
             {
-                Title = "Book a room",
+                //Title = "Book a room",
+                Title = "Touchpoint Program",
                 MenuItemType = MenuItemType.BookRoom,
                 ViewModelType = typeof(BookingViewModel),
                 IsEnabled = true
@@ -86,7 +88,8 @@ namespace SmartHotel.Clients.Core.ViewModels
 
             MenuItems.Add(new Models.MenuItem
             {
-                Title = "My Room",
+                //Title = "My Room",
+                Title = "Forecast",
                 MenuItemType = MenuItemType.MyRoom,
                 ViewModelType = typeof(MyRoomViewModel),
                 IsEnabled = AppSettings.HasBooking
@@ -94,7 +97,8 @@ namespace SmartHotel.Clients.Core.ViewModels
 
             MenuItems.Add(new Models.MenuItem
             {
-                Title = "Suggestions",
+                //Title = "Suggestions",
+                Title = "Orders",
                 MenuItemType = MenuItemType.Suggestions,
                 ViewModelType = typeof(SuggestionsViewModel),
                 IsEnabled = true
@@ -102,7 +106,8 @@ namespace SmartHotel.Clients.Core.ViewModels
 
             MenuItems.Add(new Models.MenuItem
             {
-                Title = "Concierge",
+                //Title = "Concierge",
+                Title = "Salesplans",
                 MenuItemType = MenuItemType.Concierge,
                 IsEnabled = true
             });

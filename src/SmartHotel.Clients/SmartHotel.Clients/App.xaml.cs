@@ -32,18 +32,17 @@ namespace SmartHotel.Clients
 
             MessagingCenter.Subscribe<WebWrapper>(this, "ShowMainPage", (sender) =>
             {
-
                 InitNavigation();
             });
 
 
 
             // MainPage = new NavigationPage(new WebWrapper("https://login.salesforce.com"));
-            if(LoginWrapper == null)
-                LoginWrapper = new WebWrapper("https://arun-zone-dev-ed.my.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9ZL0ppGP5UrDhS8a_1kOJZ5ihoBL70D8.rWXY2sIkEwjBOA8MDB10od0aOdu_jhzcLqw2F3t6nv0M2pWZ&redirect_uri=https://arun-zone-dev-ed.my.salesforce.com/auth/success");
+            if (LoginWrapper == null)
+                //LoginWrapper = new WebWrapper("https://test-mon.cs95.force.com/wheat/services/oauth2/authorize?response_type=code&client_id=3MVG9XmM8CUVepGaWq.XTuUtlm9_LWviPULVvlqxitqz5BBC7O9H7V2qxf5jmcNh7Y_QWWGi32jqkoPWfF2_u&redirect_uri=https://test.salesforce.com/services/oauth2/success");
+            LoginWrapper = new WebWrapper("https://arun-zone-dev-ed.my.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9ZL0ppGP5UrDhS8a_1kOJZ5ihoBL70D8.rWXY2sIkEwjBOA8MDB10od0aOdu_jhzcLqw2F3t6nv0M2pWZ&redirect_uri=https://arun-zone-dev-ed.my.salesforce.com/auth/success");
             else
                 LoginWrapper.CreateWebView("https://arun-zone-dev-ed.my.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9ZL0ppGP5UrDhS8a_1kOJZ5ihoBL70D8.rWXY2sIkEwjBOA8MDB10od0aOdu_jhzcLqw2F3t6nv0M2pWZ&redirect_uri=https://arun-zone-dev-ed.my.salesforce.com/auth/success");
-
             MainPage = new NavigationPage(LoginWrapper);
             MainPage.Title = "Salesforce Login";
 

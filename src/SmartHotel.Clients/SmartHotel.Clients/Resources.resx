@@ -130,7 +130,7 @@
     <value>Be green</value>
   </data>
   <data name="BookMayus" xml:space="preserve">
-    <value>BOOK A ROOM</value>
+    <value>TOUCH POINTS</value>
   </data>
   <data name="Checkout" xml:space="preserve">
     <value>Check out</value>
@@ -274,7 +274,7 @@
     <value>What do you want to eat today?</value>
   </data>
   <data name="BookConferenceMayus" xml:space="preserve">
-    <value>BOOK A CONFERENCE ROOM</value>
+    <value>SUMMARY</value>
   </data>
   <data name="GoMyRoomMayus" xml:space="preserve">
     <value>GO TO MY ROOM</value>

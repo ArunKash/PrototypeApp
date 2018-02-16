@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X5k-f2-b5h">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X5k-f2-b5h">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,11 +14,11 @@
                         <viewControllerLayoutGuide type="bottom" id="9ZL-r4-8FZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="bnK-xg-zKP">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simbol_logo3.png" translatesAutoresizingMaskIntoConstraints="NO" id="bnK-xg-zKP">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                         </subviews>
                         <constraints>
@@ -35,10 +32,115 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XAI-xm-WK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="348" y="338.68065967016497"/>
+            <point key="canvasLocation" x="348" y="338.6807"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Default.png" width="320" height="568"/>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="Default-667h.png" width="375" height="667"/>
+        <image name="Default-736h.png" width="414" height="736"/>
+        <image name="Default-568h.png" width="320" height="568"/>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="Icon-Small-40.png" width="26.666666" height="26.666666"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="logo_splash.png" width="345" height="117"/>
+        <image name="simbol_logo.png" width="161" height="179"/>
+        <image name="img_header_background_1.png" width="1296" height="1012"/>
+        <image name="img_header_background_2.png" width="1296" height="1012"/>
+        <image name="ic_logout.png" width="144" height="144"/>
+        <image name="ic_beach.png" width="144" height="144"/>
+        <image name="ic_bed.png" width="144" height="144"/>
+        <image name="ic_bot.png" width="144" height="144"/>
+        <image name="ic_key.png" width="144" height="144"/>
+        <image name="avatar.png" width="1200" height="640"/>
+        <image name="ic_ice.png" width="216" height="216"/>
+        <image name="ic_leak.png" width="216" height="216"/>
+        <image name="ic_toothbrush.png" width="216" height="216"/>
+        <image name="ic_towel.png" width="216" height="216"/>
+        <image name="ic_bot_2.png" width="216" height="216"/>
+        <image name="rating.png" width="26" height="26"/>
+        <image name="pushpin_02.png" width="26" height="34"/>
+        <image name="pushpin_01.png" width="26" height="34"/>
+        <image name="img_3.png" width="648" height="475"/>
+        <image name="img_1.png" width="648" height="475"/>
+        <image name="img_2.png" width="648" height="475"/>
+        <image name="ic_be_green.png" width="114" height="118"/>
+        <image name="ic_menu.png" width="21" height="14"/>
+        <image name="ic_be_green_2.png" width="114" height="118"/>
+        <image name="thumb_slider.png" width="88" height="96"/>
+        <image name="ic_card.png" width="25" height="25"/>
+        <image name="bg_slider_01.png" width="1248" height="28"/>
+        <image name="ic_paperbin.png" width="48" height="52"/>
+        <image name="bg_slider_02.png" width="1248" height="28"/>
+        <image name="ic_paperbin_red.png" width="48" height="52"/>
+        <image name="bg_slider_03.png" width="1248" height="28"/>
+        <image name="bg_slider_04.png" width="1248" height="28"/>
+        <image name="ic_home.png" width="192" height="192"/>
+        <image name="map.png" width="1440" height="1216"/>
+        <image name="i_door_nfc.png" width="976" height="1400"/>
+        <image name="placeholder_2.png" width="384" height="244"/>
+        <image name="ic_sort.png" width="72" height="72"/>
+        <image name="ic_filter.png" width="90" height="71"/>
+        <image name="ic_map.png" width="72" height="72"/>
+        <image name="ic_wifi.png" width="192" height="192"/>
+        <image name="ic_air_conditioning.png" width="192" height="192"/>
+        <image name="ic_pool.png" width="192" height="192"/>
+        <image name="ic_gym.png" width="192" height="192"/>
+        <image name="ic_table.png" width="192" height="192"/>
+        <image name="i_hotel_1.jpg" width="434" height="387"/>
+        <image name="i_hotel_2.jpg" width="434" height="387"/>
+        <image name="i_hotel_3.jpg" width="434" height="387"/>
+        <image name="i_hotel_4.jpg" width="434" height="387"/>
+        <image name="i_hotel_5.jpg" width="434" height="387"/>
+        <image name="i_hotel_6.jpg" width="434" height="387"/>
+        <image name="i_hotel_7.jpg" width="434" height="387"/>
+        <image name="i_hotel_8.jpg" width="434" height="387"/>
+        <image name="ic_star_normal.png" width="55" height="52"/>
+        <image name="ic_star_active.png" width="52" height="52"/>
+        <image name="ic_towels_on.png" width="440" height="440"/>
+        <image name="ic_ice_off.png" width="440" height="440"/>
+        <image name="ic_ice_on.png" width="440" height="440"/>
+        <image name="ic_leak_off.png" width="440" height="440"/>
+        <image name="ic_leak_on.png" width="440" height="440"/>
+        <image name="ic_toothbrush_off.png" width="440" height="440"/>
+        <image name="ic_toothbrush_on.png" width="440" height="440"/>
+        <image name="ic_towels_off.png" width="440" height="440"/>
+        <image name="ic_check_out.png" width="88" height="96"/>
+        <image name="illustratrion_bot.png" width="272" height="268"/>
+        <image name="switch_on.png" width="148" height="104"/>
+        <image name="switch_off.png" width="156" height="104"/>
+        <image name="ball_2.png" width="175" height="175"/>
+        <image name="ball_left.png" width="192" height="192"/>
+        <image name="ball_right.png" width="192" height="192"/>
+        <image name="ball.png" width="192" height="192"/>
+        <image name="ic_elevator.png" width="192" height="192"/>
+        <image name="ic_green.png" width="192" height="192"/>
+        <image name="ic_bath.png" width="192" height="192"/>
+        <image name="selected.png" width="360" height="192"/>
+        <image name="ic_wheelchair_accessible.png" width="192" height="192"/>
+        <image name="ic_airport_shutle.png" width="192" height="192"/>
+        <image name="ic_dryer.png" width="192" height="192"/>
+        <image name="ic_fitness_centre.png" width="192" height="192"/>
+        <image name="ic_hot_tub.png" width="192" height="192"/>
+        <image name="ic_indoor_fireplace.png" width="192" height="192"/>
+        <image name="ic_parking.png" width="192" height="192"/>
+        <image name="ic_breakfast.png" width="192" height="192"/>
+        <image name="ic_tv.png" width="192" height="192"/>
+        <image name="hero_image_room.png" width="720" height="400"/>
+        <image name="hero_image.png" width="5464" height="1160"/>
+        <image name="room_temperature.png" width="915" height="448"/>
+        <image name="ambient_light.png" width="1352" height="156"/>
+        <image name="be_green.png" width="1272" height="408"/>
+        <image name="notification_icon.png" width="49" height="54"/>
+        <image name="ic_room_2.png" width="156" height="120"/>
+        <image name="ic_room.png" width="156" height="120"/>
+        <image name="ic_hotel.png" width="112" height="128"/>
+        <image name="ic_hotel_2.png" width="112" height="128"/>
+        <image name="ic_others.png" width="120" height="120"/>
+        <image name="ic_others_2.png" width="120" height="120"/>
+        <image name="Charts.png" width="772" height="320"/>
+        <image name="simbol_logo3.png" width="639" height="214"/>
+        <image name="leads.png" width="481" height="341"/>
+        <image name="newLeads.png" width="800" height="600"/>
     </resources>
 </document>

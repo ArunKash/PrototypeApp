@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:core="clr-namespace:SmartHotel.Clients.Core;assembly=SmartHotel.Clients.Core"
@@ -47,7 +47,7 @@
                 Grid.Row="0">
                 <ffimageloading:CachedImage
                     Aspect="AspectFill"
-                    Source="{Binding UserAvatar}"
+                    Source="https://openclipart.org/download/287459/teenboy.svg"
                     CacheType="Disk"
                     CacheDuration="30">>
                     <ffimageloading:CachedImage.LoadingPlaceholder>
@@ -68,13 +68,14 @@
                         Text="{extensions:Translate Hello}"  
                         Style="{StaticResource HelloTextStyle}"/>
                     <Label 
-                        Text="{Binding UserName}"
+                        Text="Monsanto User"
                         Style="{StaticResource UsernameTextStyle}"/>
                 </StackLayout>
             </Grid>
             <Grid
                 Grid.Row="1">
                 <ListView 
+                    BackgroundColor="#cad16a"
                     AutomationId="menu"
                     ItemsSource="{Binding MenuItems}" 
                     CachingStrategy="RecycleElement"

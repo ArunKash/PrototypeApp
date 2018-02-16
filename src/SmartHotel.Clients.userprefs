@@ -1,28 +1,59 @@
 ﻿<Properties StartupConfiguration="{99CB58D3-40AE-46B4-BE78-83A0FE0B8F52}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SmartHotel.Clients/SmartHotel.Clients/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmartHotel.Clients/SmartHotel.Clients.iOS/Resources/LaunchScreen.storyboard">
     <Files>
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/App.xaml.cs" Line="48" Column="49" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients.iOS/AppDelegate.cs" Line="60" Column="72" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients.Android/Services/Authentication/BrowserCookiesService.cs" Line="8" Column="64" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients.iOS/Main.cs" Line="12" Column="1" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Helpers/ConnectionInfos.cs" Line="6" Column="23" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Helpers/UserInfos.cs" Line="228" Column="9" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Helpers/AppConstants.cs" Line="37" Column="113" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients.UWP/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Services/SalesforceWebservices/SalesforceWebService.cs" Line="136" Column="1" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/Templates/WebWrapper.xaml.cs" Line="163" Column="17" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/ViewModels/ExtendedSplashViewModel.cs" Line="12" Column="43" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Services/Navigation/INavigationService.cs" Line="9" Column="14" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Services/Navigation/NavigationService.cs" Line="91" Column="58" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/ViewModels/MainViewModel.cs" Line="6" Column="18" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/HomeView.xaml" Line="288" Column="45" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/App.xaml.cs" Line="34" Column="14" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Resources.resx" Line="269" Column="10" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/MenuView.xaml" Line="41" Column="28" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/ExtendedSplashView.xaml" Line="26" Column="16" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients.iOS/Resources/LaunchScreen.storyboard" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SmartHotel.Clients" expanded="True">
+            <Node name="Shared Code" expanded="True">
+              <Node name="SmartHotel.Clients" expanded="True">
+                <Node name="Services" expanded="True">
+                  <Node name="Chart" expanded="True" />
+                  <Node name="Notification" expanded="True" />
+                  <Node name="SalesforceWebservices" expanded="True" />
+                </Node>
+                <Node name="ViewModels" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Templates" expanded="True">
+                    <Node name="NotificationDetailItemTemplate.xaml" expanded="True" />
+                  </Node>
+                  <Node name="HomeView.xaml" expanded="True" />
+                  <Node name="InitialPleaseWait.xaml" expanded="True" />
+                  <Node name="NotificationsView.xaml" expanded="True" />
+                </Node>
+                <Node name="App.xaml" expanded="True" />
+                <Node name="Resources.resx" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Targets" expanded="True">
+              <Node name="SmartHotel.Clients.iOS" expanded="True">
+                <Node name="Packages" expanded="True" />
+                <Node name="Resources" expanded="True">
+                  <Node name="Default.png" selected="True" />
+                </Node>
+              </Node>
+              <Node name="SmartHotel.Clients.UWP" expanded="True">
+                <Node name="App.xaml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Targets.SmartHotel.Clients.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1DA377ED-24F0-488A-94DD-2118D9B14A78" />
+  <MonoDevelop.Ide.ItemProperties.Targets.SmartHotel.Clients.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D5E0D374-B8D0-45C8-8B71-0D54D8752694" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Targets.SmartHotel.Clients.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>

@@ -16,13 +16,13 @@ namespace SmartHotel.Clients.Core.Converters
                 switch(notificationType)
                 {
                     case NotificationType.BeGreen:
-                        return "Be Green";
+                        return "TouchPoint Program 1";
                     case NotificationType.Hotel:
-                        return "Hotel";
+                        return "TouchPoint Program 2";
                     case NotificationType.Room:
-                        return "Room";
+                        return "TouchPoint Program 3";
                     case NotificationType.Other:
-                        return "Other";
+                        return "TouchPoint Program 4";
                 }
             }
 

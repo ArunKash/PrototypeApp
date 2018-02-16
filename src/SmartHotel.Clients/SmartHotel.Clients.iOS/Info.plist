@@ -20,32 +20,10 @@
 	</array>
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
-	<key>CFBundleDisplayName</key>
-	<string>SmartHotel</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.microsoft.SmartHotel360-df</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>Icon-60@2x</string>
-		<string>Icon-60@3x</string>
-		<string>Icon-76</string>
-		<string>Icon-76@2x</string>
-		<string>Default</string>
-		<string>Default@2x</string>
-		<string>Default-568h@2x</string>
-		<string>Default-Portrait</string>
-		<string>Default-Portrait@2x</string>
-		<string>Icon-Small-40</string>
-		<string>Icon-Small-40@2x</string>
-		<string>Icon-Small-40@3x</string>
-		<string>Icon-Small</string>
-		<string>Icon-Small@2x</string>
-		<string>Icon-Small@3x</string>
-	</array>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>fonts/Poppins-Bold.ttf</string>
@@ -53,14 +31,10 @@
 		<string>fonts/Poppins-Medium.ttf</string>
 		<string>fonts/Poppins-Regular.ttf</string>
 		<string>fonts/Poppins-SemiBold.ttf</string>
-    <string>fonts/FiraSans-Bold.ttf</string>
-    <string>fonts/FiraSans-SemiBold.ttf</string>
-    <string>fonts/FiraSans-Regular.ttf</string>
+		<string>fonts/FiraSans-Bold.ttf</string>
+		<string>fonts/FiraSans-SemiBold.ttf</string>
+		<string>fonts/FiraSans-Regular.ttf</string>
 	</array>
-	<key>CFBundleName</key>
-	<string>SmartHotel.Clients</string>
-	<key>UIMainStoryboardFile</key>
-	<string>LaunchScreen</string>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleLightContent</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
@@ -71,5 +45,7 @@
 	<string>Need confirmation to use geo-location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Need confirmation to use geo-location</string>
+	<key>CFBundleName</key>
+	<string>Account Planning</string>
 </dict>
 </plist>

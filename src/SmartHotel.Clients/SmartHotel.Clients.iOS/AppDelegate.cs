@@ -8,6 +8,7 @@ using SmartHotel.Clients.Core.ViewModels.Base;
 using SmartHotel.Clients.iOS.Services;
 using UIKit;
 using Xamarin.Forms;
+using Rg.Plugins.Popup;
 
 namespace SmartHotel.Clients.iOS
 {
@@ -64,6 +65,8 @@ namespace SmartHotel.Clients.iOS
 
             // Initialize B2C client
             App.AuthenticationClient.PlatformParameters = new PlatformParameters(UIApplication.SharedApplication.KeyWindow.RootViewController);
+
+            Rg.Plugins.Popup.IOS.Popup.Init();
 
             return true;
         }

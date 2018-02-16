@@ -5758,21 +5758,17 @@
     ]
   },
   "packageFolders": {
-    "/Users/cognizanttechnologysolutions/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/cognizanttechnologysolutions/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients/SmartHotel.Clients.csproj",
+      "projectUniqueName": "/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients/SmartHotel.Clients.csproj",
       "projectName": "SmartHotel.Clients",
-      "projectPath": "/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients/SmartHotel.Clients.csproj",
+      "projectPath": "/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients/SmartHotel.Clients.csproj",
       "packagesPath": "/Users/cognizanttechnologysolutions/.nuget/packages/",
-      "outputPath": "/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients/obj",
+      "outputPath": "/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients/obj",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "/Users/cognizanttechnologysolutions/.config/NuGet/NuGet.Config"
       ],
@@ -5780,7 +5776,6 @@
         "netstandard1.4"
       ],
       "sources": {
-        "/Users/cognizanttechnologysolutions/Downloads": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

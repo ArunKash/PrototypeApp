@@ -143,7 +143,9 @@ namespace SmartHotel.Clients.Core.ViewModels
 
         private async Task BookRoomAsync()
         {
-            await NavigationService.NavigateToAsync<BookingViewModel>();
+            // await NavigationService.NavigateToAsync<BookingViewModel>();
+            await NavigationService.NavigateToAsync(typeof(NotificationsViewModel), Notifications);
+
         }
 
         private async Task SuggestionsAsync()

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage 
     x:Name="Self"
     xmlns="http://xamarin.com/schemas/2014/forms"
@@ -115,86 +115,67 @@
             
         </ResourceDictionary>
     </ContentPage.Resources>
-    <ContentPage.ToolbarItems>
-        <ToolbarItem  
-            Text="{extensions:Translate OpenDoor}"
-            Command="{Binding OpenDoorCommand}">
-            <ToolbarItem.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="Android, iOS" Value="ic_card" />
-                    <On Platform="UWP" Value="Assets/ic_card.png" />
-                </OnPlatform>
-            </ToolbarItem.Icon>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <Grid>
             <Grid   
                 AutomationId="home"
                 RowSpacing="0">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="4.6*" />
-                    <RowDefinition Height="5.4*" />
+                    <RowDefinition Height="1.2*"/>
+                    <RowDefinition Height="1.5*" />
+                    <RowDefinition Height="7*" />
                 </Grid.RowDefinitions>
+                <!--Navigation -->
+                <Grid Grid.Row="0" BackgroundColor ="#064e30">
+                <Label Text="DASHBOARD" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White"  Font="Bold"></Label>
+                </Grid>
                 <!-- CAROUSEL -->
                 <Grid
-                    Grid.Row="0">
+                    Grid.Row="1" BackgroundColor="White">
                     <Image
                         Aspect="AspectFill">
-                        <Image.Source>
-                            <OnPlatform x:TypeArguments="ImageSource">
-                                <On Platform="Android, iOS" Value="hero_image" />
-                                <On Platform="UWP" Value="Assets/hero_image.png" />
-                            </OnPlatform>
-                        </Image.Source>
+
                     </Image>
-                    <carousel:CarouselViewControl 
-                        x:Name="Carousel"
-                        Orientation="Horizontal" 
-                        InterPageSpacing="0" 
-                        ShowIndicators="True"
-                        ShowArrows="True"
-                        CurrentPageIndicatorTintColor="{StaticResource WhiteColor}"
-                        ItemsSource="{Binding Notifications, Mode=OneWay}">
-                        <carousel:CarouselViewControl.ItemTemplate>
-                            <DataTemplate>
-                                <templates:NotificationItemTemplate 
-                                    TapCommand="{Binding BindingContext.NotificationsCommand, Source={x:Reference Self}}" />
-                            </DataTemplate>
-                        </carousel:CarouselViewControl.ItemTemplate>
-                    </carousel:CarouselViewControl>
+                   
                     <Image 
                         Margin="0, 30, 0, 12"
                         VerticalOptions="Start"
                         HorizontalOptions="Center"
                         HeightRequest="74"
-                        Aspect="AspectFit">
-                        <Image.Source>
-                            <OnPlatform x:TypeArguments="ImageSource">
-                                <On Platform="Android, iOS" Value="simbol_logo" />
-                                <On Platform="UWP" Value="Assets/simbol_logo.png" />
-                            </OnPlatform>
-                        </Image.Source>
+                        Aspect="AspectFit"
+                        Source= "simbol_logo3.png">
+
                     </Image>
                 </Grid>
                 <!-- NO BOOKING -->
                 <Grid
-                    IsVisible="{Binding HasBooking, Converter={StaticResource InverseBoolConverter}}"
+                    IsVisible="true"
                     ColumnSpacing="0"
                     RowSpacing="0"
-                    Grid.Row="1">
+                    Grid.Row="2"
+                    BackgroundColor="White"
+                    >
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition />
-                        <ColumnDefinition />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="5.5*" />
-                        <RowDefinition Height="4.5*" />
+                        <RowDefinition Height="*" />
+
+                        <RowDefinition Height="5.5*"/>
+                        <RowDefinition Height="*" />
+
+                        <RowDefinition Height="4.5*"/>
+
                     </Grid.RowDefinitions>
                     <!-- BOOK A ROOM -->
                     <Grid
                         Grid.Row="0"
-                        Grid.Column="0">
+                        Grid.Column="1">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="75*" />
                             <RowDefinition Height="25*" />
@@ -205,7 +186,7 @@
                             Aspect="AspectFill">
                             <ffimageloading:CachedImage.Source>
                                 <OnPlatform x:TypeArguments="ImageSource">
-                                    <On Platform="Android, iOS" Value="img_1" />
+                                    <On Platform="Android, iOS" Value="newLeads" />
                                     <On Platform="UWP" Value="Assets/img_1.png" />
                                 </OnPlatform>
                             </ffimageloading:CachedImage.Source>
@@ -214,8 +195,9 @@
                             Grid.Row="1"
                             BackgroundColor="{StaticResource OrangeColor}">
                             <Label
-                                Text="{extensions:Translate BookMayus}"
-                                Style="{StaticResource BookTextStyle}"/>
+                                Text="Touchpoints"
+                                Style="{StaticResource BookTextStyle}"
+                                Font="Bold, 10"/>
                         </Grid>
                         <Grid.GestureRecognizers>
                             <TapGestureRecognizer 
@@ -223,93 +205,118 @@
                         </Grid.GestureRecognizers>
                     </Grid>
                     <!-- BOOK CONFERENCE ROOM -->
+
                     <Grid
                         Grid.Row="0"
-                        Grid.Column="1">
+                        Grid.Column="3">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="75*" />
                             <RowDefinition Height="25*" />
                         </Grid.RowDefinitions>
-                        <ffimageloading:CachedImage  
+                        <ffimageloading:CachedImage 
                             Grid.Row="0"
                             Grid.RowSpan="2"
-                            Source="img_2" 
                             Aspect="AspectFill">
                             <ffimageloading:CachedImage.Source>
                                 <OnPlatform x:TypeArguments="ImageSource">
-                                    <On Platform="Android, iOS" Value="img_2" />
-                                    <On Platform="UWP" Value="Assets/img_2.png" />
+                                    <On Platform="Android, iOS" Value="leads" />
+                                    <On Platform="UWP" Value="Assets/img_1.png" />
                                 </OnPlatform>
                             </ffimageloading:CachedImage.Source>
                         </ffimageloading:CachedImage>
                         <Grid   
                             Grid.Row="1"
-                            BackgroundColor="{StaticResource WhiteColor}">
+                            BackgroundColor="{StaticResource OrangeColor}">
                             <Label
-                                Text="BOOK A&#x0a;CONFERENCE ROOM"
-                                Style="{StaticResource BookConferenceTextStyle}"/>
+                                Text="Sales"
+                                Style="{StaticResource BookTextStyle}"
+                              Font="Bold, 10"/>
                         </Grid>
                         <Grid.GestureRecognizers>
                             <TapGestureRecognizer 
-                                Command="{Binding BookConferenceCommand}" />
+                                Command="{Binding BookRoomCommand}" />
                         </Grid.GestureRecognizers>
                     </Grid>
+
+                    
+                    
+
                     <!-- RESTAURANT -->
-                    <Grid
-                        Grid.Row="1"
-                        Grid.Column="0"
-                        BackgroundColor="{StaticResource WhiteColor}">
+
+                      <Grid
+                        Grid.Row="2"
+                        Grid.Column="1">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="3*" />
-                            <RowDefinition Height="7*" />
+                            <RowDefinition Height="75*" />
+                            <RowDefinition Height="25*" />
                         </Grid.RowDefinitions>
-                        <StackLayout
+                        <ffimageloading:CachedImage 
                             Grid.Row="0"
-                            Orientation="Horizontal">
-                            <Label
-                                Text="{extensions:Translate Suggestions}"
-                                Style="{StaticResource SuggestionsTextStyle}"/>
-                            <Label   
-                                Text="{extensions:Translate SeeAll}"
-                                HorizontalOptions="EndAndExpand"
-                                Style="{StaticResource SeeAllTextStyle}"/>
-                        </StackLayout>
-                        <StackLayout
-                            Grid.Row="1">
-                            <Label            
-                                Text="{extensions:Translate Restaurant}"
-                                Style="{StaticResource RestaurantTextStyle}"/>
-                            <Label   
-                                Text="{extensions:Translate EatToday}"
-                                Style="{StaticResource RestaurantDetailTextStyle}"/>
-                            <StackLayout.GestureRecognizers>
-                                <TapGestureRecognizer 
-                                    Command="{Binding SuggestionsCommand}" />
-                            </StackLayout.GestureRecognizers>
-                        </StackLayout>
-                    </Grid>
-                    <!-- MORE INFO -->
-                    <Grid
-                        Grid.Row="1"
-                        Grid.Column="1"
-                        RowSpacing="0">
-                        <ffimageloading:CachedImage  
+                            Grid.RowSpan="2"
                             Aspect="AspectFill">
                             <ffimageloading:CachedImage.Source>
                                 <OnPlatform x:TypeArguments="ImageSource">
-                                    <On Platform="Android, iOS" Value="img_3" />
-                                    <On Platform="UWP" Value="Assets/img_3.png" />
+                                    <On Platform="Android, iOS" Value="leads" />
+                                    <On Platform="UWP" Value="Assets/img_1.png" />
                                 </OnPlatform>
                             </ffimageloading:CachedImage.Source>
                         </ffimageloading:CachedImage>
+                        <Grid   
+                            Grid.Row="1"
+                            BackgroundColor="{StaticResource OrangeColor}">
+                            <Label
+                                Text="Orders"
+                                Style="{StaticResource BookTextStyle}"
+                                Font="Bold, 10"/>
+                        </Grid>
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer 
+                                Command="{Binding BookRoomCommand}" />
+                        </Grid.GestureRecognizers>
                     </Grid>
+                    <!-- BOOK CONFERENCE ROOM -->
+
+                    <Grid
+                        Grid.Row="2"
+                        Grid.Column="3">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="75*" />
+                            <RowDefinition Height="25*" />
+                        </Grid.RowDefinitions>
+                        <ffimageloading:CachedImage 
+                            Grid.Row="0"
+                            Grid.RowSpan="2"
+                            Aspect="AspectFill">
+                            <ffimageloading:CachedImage.Source>
+                                <OnPlatform x:TypeArguments="ImageSource">
+                                    <On Platform="Android, iOS" Value="newLeads" />
+                                    <On Platform="UWP" Value="Assets/img_1.png" />
+                                </OnPlatform>
+                            </ffimageloading:CachedImage.Source>
+                        </ffimageloading:CachedImage>
+                        <Grid   
+                            Grid.Row="1"
+                            BackgroundColor="{StaticResource OrangeColor}">
+                            <Label
+                                Text="Forecast"
+                                Style="{StaticResource BookTextStyle}"
+                              Font="Bold, 10"/>
+                        </Grid>
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer 
+                                Command="{Binding BookRoomCommand}" />
+                        </Grid.GestureRecognizers>
+                    </Grid>
+
+                    <!-- MORE INFO -->
+                   
                 </Grid>
                 <!-- BOOKING -->
                 <Grid
                     IsVisible="{Binding HasBooking}"
                     ColumnSpacing="0"
                     RowSpacing="0"
-                    Grid.Row="1">
+                    Grid.Row="2">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition />
                         <ColumnDefinition />
@@ -468,8 +475,8 @@
             </Grid>
             <ActivityIndicator 
                 Color="{StaticResource AccentColor}"
-                IsRunning="{Binding IsBusy}" 
-                IsVisible="{Binding IsBusy}" />
+                IsRunning="false" 
+                IsVisible="false" />
         </Grid>
     </ContentPage.Content>
-</ContentPage>
+</ContentPage>  

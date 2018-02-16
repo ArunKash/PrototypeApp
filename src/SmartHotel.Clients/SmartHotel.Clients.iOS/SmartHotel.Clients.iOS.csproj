@@ -139,20 +139,17 @@
     <None Include="packages.config" />
     <BundleResource Include="Resources\Default-667h%402x.png" />
     <BundleResource Include="Resources\Default-736h%403x.png" />
+    <BundleResource Include="Resources\Charts.png" />
+    <BundleResource Include="Resources\simbol_logo3.png" />
+    <BundleResource Include="Resources\leads.png" />
+    <BundleResource Include="Resources\newLeads.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
     <BundleResource Include="Resources\Default.png" />
     <BundleResource Include="Resources\Default%402x.png" />
-    <BundleResource Include="Resources\Icon-60%402x.png" />
     <BundleResource Include="Resources\Icon-60%403x.png" />
-    <BundleResource Include="Resources\Icon-76.png" />
-    <BundleResource Include="Resources\Icon-76%402x.png" />
-    <BundleResource Include="Resources\Icon-Small-40.png" />
-    <BundleResource Include="Resources\Icon-Small-40%402x.png" />
     <BundleResource Include="Resources\Icon-Small-40%403x.png" />
-    <BundleResource Include="Resources\Icon-Small.png" />
-    <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
@@ -193,14 +190,8 @@
     <Reference Include="FFImageLoading.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.FFImageLoading.2.2.20\lib\Xamarin.iOS10\FFImageLoading.Platform.dll</HintPath>
     </Reference>
-    <Reference Include="Microcharts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microcharts.0.7.1-pre\lib\Xamarin.iOS10\Microcharts.dll</HintPath>
-    </Reference>
     <Reference Include="Microcharts.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microcharts.Forms.0.7.1-pre\lib\netstandard1.4\Microcharts.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="Microcharts.iOS, Version=1.0.6452.38835, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microcharts.0.7.1-pre\lib\Xamarin.iOS10\Microcharts.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Azure.Mobile, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.Azure.Mobile.0.15.2\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.dll</HintPath>
@@ -263,9 +254,6 @@
     <Reference Include="SkiaSharp.Views.Forms, Version=1.59.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\SkiaSharp.Views.Forms.1.59.1\lib\XamariniOS\SkiaSharp.Views.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="SkiaSharp.Views.iOS, Version=1.59.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SkiaSharp.Views.1.59.1\lib\XamariniOS\SkiaSharp.Views.iOS.dll</HintPath>
-    </Reference>
     <Reference Include="Splat, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Splat.2.0.0\lib\Xamarin.iOS10\Splat.dll</HintPath>
     </Reference>
@@ -301,6 +289,15 @@
     <Reference Include="Xamarin.iOS" />
     <Reference Include="ModernHttpClient">
       <HintPath>..\..\packages\modernhttpclient.2.4.2\lib\Xamarin.iOS10\ModernHttpClient.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.iOS">
+      <HintPath>..\..\packages\SkiaSharp.Views.1.59.1.1\lib\XamariniOS\SkiaSharp.Views.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Microcharts">
+      <HintPath>..\..\packages\Microcharts.0.7.1\lib\Xamarin.iOS10\Microcharts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microcharts.iOS">
+      <HintPath>..\..\packages\Microcharts.0.7.1\lib\Xamarin.iOS10\Microcharts.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -607,6 +604,16 @@
     <BundleResource Include="Resources\ic_others_2.png" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40%402x.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

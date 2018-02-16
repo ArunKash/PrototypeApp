@@ -11,9 +11,9 @@
 namespace SmartHotel.Clients.Core.Views.Templates {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360" +
-        "-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients/Views/Templates/N" +
-        "otificationDetailItemTemplate.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartH" +
+        "otel.Clients/SmartHotel.Clients/Views/Templates/NotificationDetailItemTemplate.x" +
+        "aml")]
     public partial class NotificationDetailItemTemplate : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

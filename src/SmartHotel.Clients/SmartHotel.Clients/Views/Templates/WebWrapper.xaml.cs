@@ -7,6 +7,8 @@ using System.Diagnostics;
 using SmartHotel.Clients.Core.Helpers;
 using SmartHotel.Clients.Core.Services.SalesforceWebservices;
 using FFImageLoading.Args;
+using Rg;
+using Rg.Plugins.Popup.Extensions;
 
 namespace SmartHotel.Clients.Core.Views.Templates
 {
@@ -28,6 +30,8 @@ namespace SmartHotel.Clients.Core.Views.Templates
         private static int passWordChangeCount = 0;
         public WebWrapper(string URL)
         {
+
+
             InitializeComponent();
 
             salesforceUrlBase = URL;
@@ -40,7 +44,17 @@ namespace SmartHotel.Clients.Core.Views.Templates
             WebView theBrowser = (WebView)sender;
             var url = (((WebView)sender).Source as UrlWebViewSource).Url;
             System.Diagnostics.Debug.WriteLine("Navigated URL -- " + url);
+
+            //   if (url.Contains("https://arun-zone-dev-ed--c.ap6.content.force.com/secur/contentDoor?")) ;
+            //
+
+            //if (url.Contains("code="))
+            //{
+            //    PushPopUp("Loading Dashboard. . .");
+            //}
+
              ValidateReturnLogin(theBrowser);
+       // 
         }
 
         public void CreateWebView(string URL)
@@ -81,6 +95,12 @@ namespace SmartHotel.Clients.Core.Views.Templates
             var url = (((WebView)sender).Source as UrlWebViewSource).Url;
             System.Diagnostics.Debug.WriteLine("WebView_Navigating - " + url);
             navigatingURL = url;
+           
+            if(url.Contains("contentDoor")) {
+                PushPopUp("Please Wait");
+            }
+
+
 
             // System.Diagnostics.Debug.WriteLine("Navigating sUrl - " + url);
 
@@ -141,7 +161,7 @@ namespace SmartHotel.Clients.Core.Views.Templates
 
         private async void PushPopUp(string msg)
         {
-           // await Navigation.PushPopupAsync(new WaitPopUpLogin(msg));
+            await Navigation.PushPopupAsync(new InitialPleaseWait(msg));
         }
 
 
@@ -155,11 +175,11 @@ namespace SmartHotel.Clients.Core.Views.Templates
                
                 string code = sUrl.Substring(pFrom);
                 Debug.WriteLine("code is"+code);
-                ConnectionInfos.Instance.code = code;
-               bool Success =  await SalesforceWebService.Instance.ConnectQA(ConnectionInfos.Instance);
-                if(Success) {
+                //ConnectionInfos.Instance.code = code;
+               //bool Success =  await SalesforceWebService.Instance.ConnectQA(ConnectionInfos.Instance);
+                //if(Success) {
                     MessagingCenter.Send<WebWrapper>(this, "ShowMainPage");
-                }
+                //}
 
             }
 

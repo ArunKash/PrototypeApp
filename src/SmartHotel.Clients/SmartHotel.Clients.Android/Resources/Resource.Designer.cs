@@ -2231,6 +2231,7 @@ namespace SmartHotel.Clients.Droid
 			global::Microsoft.Identity.Client.Resource.Id.agentWebView = global::SmartHotel.Clients.Droid.Resource.Id.agentWebView;
 			global::Microsoft.Identity.Client.Resource.Layout.WebAuthenticationBroker = global::SmartHotel.Clients.Droid.Resource.Layout.WebAuthenticationBroker;
 			global::Microsoft.Identity.Client.Resource.String.ApplicationName = global::SmartHotel.Clients.Droid.Resource.String.ApplicationName;
+			global::ModernHttpClient.Resource.String.library_name = global::SmartHotel.Clients.Droid.Resource.String.library_name;
 			global::Splat.Resource.String.library_name = global::SmartHotel.Clients.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::SmartHotel.Clients.Droid.Resource.Attribute.actionBarSize;
 		}
