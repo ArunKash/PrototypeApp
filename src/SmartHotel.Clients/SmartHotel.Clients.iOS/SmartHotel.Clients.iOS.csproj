@@ -613,6 +613,20 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small%402x.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\49185-businessman-team-1.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\49185-businessman-team-2.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\49185-businessman-team-3.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\49185-businessman-team-4.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\49185-businessman-team-5.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\49185-businessman-team-6.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\49185-businessman-team-7.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\49185-businessman-team-8.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\49185-businessman-team-9.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\AppIcon.appiconset\49185-businessman-team.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-40%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

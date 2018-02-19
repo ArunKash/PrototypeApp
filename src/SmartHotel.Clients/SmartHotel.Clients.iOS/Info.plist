@@ -47,5 +47,7 @@
 	<string>Need confirmation to use geo-location</string>
 	<key>CFBundleName</key>
 	<string>Account Planning</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
 </dict>
 </plist>

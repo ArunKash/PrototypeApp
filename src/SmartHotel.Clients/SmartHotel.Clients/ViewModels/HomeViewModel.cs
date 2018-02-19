@@ -104,13 +104,13 @@ namespace SmartHotel.Clients.Core.ViewModels
                 GreenChart = await _chartService.GetGreenChartAsync();
 
                 var authenticatedUser = _authenticationService.AuthenticatedUser;
-                var notifications = await _notificationService.GetNotificationsAsync(3, authenticatedUser.Token);
+                var notifications = await _notificationService.GetNotificationsAsync(3,"somestring@example.com");
                 Notifications = new ObservableCollection<Models.Notification>(notifications);
             }
             catch (Exception ex)
             {
                 Debug.WriteLine($"[Home] Error: {ex}");
-                await DialogService.ShowAlertAsync(Resources.ExceptionMessage, Resources.ExceptionTitle, Resources.DialogOk);
+                //await DialogService.ShowAlertAsync(Resources.ExceptionMessage, Resources.ExceptionTitle, Resources.DialogOk);
             }
             finally
             {

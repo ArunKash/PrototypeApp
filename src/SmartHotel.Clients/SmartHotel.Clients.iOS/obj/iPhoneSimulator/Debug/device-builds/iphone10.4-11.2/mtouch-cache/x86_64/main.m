@@ -31,10 +31,6 @@ void xamarin_register_assemblies_impl ()
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Plugin.Geolocator.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
-	xamarin_open_and_register ("SkiaSharp.Views.Forms.dll", &exception_gchandle);
-	xamarin_process_managed_exception_gchandle (exception_gchandle);
-	xamarin_open_and_register ("SkiaSharp.Views.iOS.dll", &exception_gchandle);
-	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Xamarin.Forms.Maps.iOS.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("FFImageLoading.Forms.Touch.dll", &exception_gchandle);
@@ -42,6 +38,10 @@ void xamarin_register_assemblies_impl ()
 	xamarin_open_and_register ("CarouselView.FormsPlugin.iOS.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Microsoft.Identity.Client.Platform.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("SkiaSharp.Views.Forms.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("SkiaSharp.Views.iOS.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 
 }

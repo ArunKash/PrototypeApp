@@ -67,3 +67,5 @@ Xamarin.GooglePlayServices.Location
 Xamarin.GooglePlayServices.Maps
 Xamarin.GooglePlayServices.Tasks
 System.Security.Cryptography.Primitives
+ModernHttpClient
+OkHttp
