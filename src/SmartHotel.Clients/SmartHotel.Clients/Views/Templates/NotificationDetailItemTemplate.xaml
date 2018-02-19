@@ -32,7 +32,7 @@
             </Grid.ColumnDefinitions>
 
             <!-- Base Column 0 -->                       
-            <Grid 
+            <Grid  x:Name="TouchpointItem"
                 Grid.Column="0" 
               BackgroundColor="#064e30"
                 Padding="5"

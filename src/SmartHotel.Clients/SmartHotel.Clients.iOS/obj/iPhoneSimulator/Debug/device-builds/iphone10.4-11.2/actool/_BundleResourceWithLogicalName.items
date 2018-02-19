@@ -25,6 +25,18 @@
       <LogicalName>AppIcon60x60@3x.png</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/bundle/LaunchImage.png">
+      <LogicalName>LaunchImage.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/bundle/LaunchImage@2x.png">
+      <LogicalName>LaunchImage@2x.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/bundle/LaunchImage-568h@2x.png">
+      <LogicalName>LaunchImage-568h@2x.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/bundle/Assets.car">
       <LogicalName>Assets.car</LogicalName>
       <Optimize>false</Optimize>
