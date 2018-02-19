@@ -24,9 +24,22 @@ namespace SmartHotel.Clients.Core.Services.Hotel
             string uri = builder.ToString();
 
             IEnumerable<City> cities = await _requestService.GetAsync<IEnumerable<City>>(uri);
-
+            //cities = TouchPointMaker();
             return cities;
         }
+
+        public IEnumerable<City> TouchPointMaker(){
+
+            List<City> Touchpoints = new List<City>();
+            for(int i=0;i<10;i++){
+                City newTp = new City();
+                newTp.Name = "Account #" + i;
+                newTp.Country = "Place #" + i;
+                Touchpoints.Add(newTp);
+            }
+            return Touchpoints;
+        }
+
 
         public async Task<IEnumerable<Models.Hotel>> SearchAsync(int cityId)
         {

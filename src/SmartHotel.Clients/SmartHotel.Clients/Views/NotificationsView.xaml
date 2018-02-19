@@ -37,7 +37,7 @@
             <Grid Grid.Row="1">
                 
                 <Grid>
-                    <Label IsVisible="{Binding HasItems, Converter={StaticResource InverseBoolConverter}}" Text="{extensions:Translate NoNotifications}" Style="{StaticResource NoNotificationsTextStyle}" />
+                    <Label IsVisible="{Binding HasItems, Converter={StaticResource InverseBoolConverter}}" Text="No Touchpoint Programs" Style="{StaticResource NoNotificationsTextStyle}" />
                     <ListView x:Name="NotificationList" BackgroundColor="Transparent" ItemsSource="{Binding Notifications, Mode=OneWay}" RowHeight="150" CachingStrategy="RecycleElement" SeparatorVisibility="None">
                         <ListView.Header>
                             <!-- Force header spacing on iOS to give space to back button -->

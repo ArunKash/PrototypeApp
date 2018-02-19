@@ -29,7 +29,7 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            <Grid 
+            <Grid x:Name="TouchpointItem"
                 Grid.Column="0"
                 Padding="12"
                 ColumnSpacing="5">

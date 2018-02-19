@@ -1,28 +1,35 @@
 ﻿<Properties StartupConfiguration="{99CB58D3-40AE-46B4-BE78-83A0FE0B8F52}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmartHotel.Clients/SmartHotel.Clients/Views/NotificationsView.xaml">
     <Files>
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/HomeView.xaml" Line="355" Column="17" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/NotificationsView.xaml" Line="65" Column="15" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients.iOS/Info.plist" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/Templates/ReviewItemTemplate.xaml" Line="117" Column="15" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/ViewModels/HomeViewModel.cs" Line="106" Column="82" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Services/Notification/INotificationService.cs" Line="8" Column="48" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/ViewModels/NotificationsViewModel.cs" Line="33" Column="36" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Services/Notification/NotificationService.cs" Line="25" Column="45" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Converters/NotificationTypeToTitleConverter.cs" Line="18" Column="46" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Models/NotificationType.cs" Line="5" Column="9" />
       <File FileName="SmartHotel.Clients/SmartHotel.Clients/Models/MenuItemType.cs" Line="3" Column="17" />
       <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/MyRoomView.xaml" Line="700" Column="15" />
       <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/MainView.xaml" Line="17" Column="20" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Services/Navigation/INavigationService.cs" Line="7" Column="22" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Services/Navigation/NavigationService.cs" Line="19" Column="10" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Services/Navigation/INavigationService.cs" Line="11" Column="14" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Services/Navigation/NavigationService.cs" Line="33" Column="1" />
       <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/CustomNavigationPage.xaml.cs" Line="21" Column="47" />
       <File FileName="SmartHotel.Clients/SmartHotel.Clients/App.xaml" Line="269" Column="15" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/NotificationsView.xaml.cs" Line="14" Column="9" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/Templates/NotificationDetailItemTemplate.xaml" Line="32" Column="41" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/Templates/NotificationDetailItemTemplate.xaml.cs" Line="76" Column="23" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients.UWP/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/App.xaml.cs" Line="66" Column="53" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/ViewModels/HomeViewModel.cs" Line="158" Column="25" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/ViewModels/Base/ViewModelBase.cs" Line="18" Column="80" />
+      <File FileName="SmartHotel.Clients.UITests/BasePage.cs" Line="69" Column="58" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/BookingView.xaml" Line="196" Column="154" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Models/City.cs" Line="18" Column="9" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/ViewModels/BookingViewModel.cs" Line="126" Column="17" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/HomeView.xaml.cs" Line="7" Column="26" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/HomeView.xaml" Line="220" Column="27" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/NotificationsView.xaml" Line="43" Column="93" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients/Services/Hotel/HotelService.cs" relfile="SmartHotel.Clients/SmartHotel.Clients/Services/Hotel/HotelService.cs" line="33" column="1" />
+      <Breakpoint file="/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients/Services/Hotel/HotelService.cs" relfile="SmartHotel.Clients/SmartHotel.Clients/Services/Hotel/HotelService.cs" line="25" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Targets.SmartHotel.Clients.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FD52E5B1-8D93-49F5-9A8F-28D85D4B1BA2" automaticSigning="False" />
