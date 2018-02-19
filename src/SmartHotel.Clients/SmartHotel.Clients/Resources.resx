@@ -280,7 +280,7 @@
     <value>GO TO MY ROOM</value>
   </data>
   <data name="NoNotifications" xml:space="preserve">
-    <value>No notifications</value>
+    <value>No Touchpoints Found..</value>
   </data>
   <data name="Activities" xml:space="preserve">
     <value>Activities</value>

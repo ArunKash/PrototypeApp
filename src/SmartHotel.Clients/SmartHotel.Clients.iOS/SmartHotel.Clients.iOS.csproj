@@ -143,11 +143,12 @@
     <BundleResource Include="Resources\simbol_logo3.png" />
     <BundleResource Include="Resources\leads.png" />
     <BundleResource Include="Resources\newLeads.png" />
+    <BundleResource Include="Resources\dp3.png" />
+    <BundleResource Include="Resources\dp2.png" />
+    <BundleResource Include="Resources\dp1.png" />
+    <BundleResource Include="Resources\amCharts.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Default-568h%402x.png" />
-    <BundleResource Include="Resources\Default.png" />
-    <BundleResource Include="Resources\Default%402x.png" />
     <BundleResource Include="Resources\Icon-60%403x.png" />
     <BundleResource Include="Resources\Icon-Small-40%403x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
@@ -627,6 +628,10 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%403x.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default%402x.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-568h%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
