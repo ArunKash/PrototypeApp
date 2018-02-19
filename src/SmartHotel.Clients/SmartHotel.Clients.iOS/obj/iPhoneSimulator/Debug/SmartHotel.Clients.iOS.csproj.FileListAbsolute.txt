@@ -357,9 +357,6 @@
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_BundleResourceWithLogicalName.items
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Default-667h@2x.png
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Default-736h@3x.png
-/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Default-568h@2x.png
-/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Default.png
-/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Default@2x.png
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Icon-60@3x.png
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Icon-Small-40@3x.png
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Icon-Small@3x.png
@@ -694,3 +691,7 @@
 /Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/SmartHotel.Clients.iOS.csproj.CoreCompileInputs.cache
 /Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/SmartHotel.Clients.iOS.exe
 /Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/SmartHotel.Clients.iOS.pdb
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/dp3.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/dp2.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/dp1.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/amCharts.png

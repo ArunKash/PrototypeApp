@@ -44,9 +44,9 @@
                             <Image HeightRequest="200">
                                 <Image.Source>
                                     <OnPlatform x:TypeArguments="ImageSource">
-                                        <On Platform="Android, iOS" Value="Charts" />
+                                        <On Platform="Android, iOS" Value="amCharts" />
                                         <On Platform="UWP" Value="Assets/img_header_background_1.png" />
-                                    </OnPlatform>
+                                    </OnPlatform>                                      
                                 </Image.Source>
                             </Image>
                         </ListView.Header>

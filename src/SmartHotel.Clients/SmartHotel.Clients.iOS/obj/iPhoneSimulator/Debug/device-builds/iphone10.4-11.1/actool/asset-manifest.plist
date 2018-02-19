@@ -5,7 +5,323 @@
 	<key>com.apple.actool.compilation-results</key>
 	<dict>
 		<key>output-files</key>
-		<array/>
+		<array>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon20x20@2x.png</string>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon20x20@3x.png</string>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon40x40@2x.png</string>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon40x40@3x.png</string>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon60x60@2x.png</string>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon60x60@3x.png</string>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/LaunchImage.png</string>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/LaunchImage@2x.png</string>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/LaunchImage-568h@2x.png</string>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/Assets.car</string>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/partial-info.plist</string>
+		</array>
 	</dict>
+	<key>com.apple.actool.document.notices</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[iphone][][1x][portrait][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[iphone][][2x][portrait][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[iphone][retina4][2x][portrait][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+	</array>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>A 76x76 app icon is required for iPad apps targeting iOS 7, 8, and 9</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>A 76x76@2x app icon is required for iPad apps targeting iOS 7.0 and later</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>A 83.5x83.5@2x app icon is required for iPad apps targeting iOS 9.0 and later</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>A 1024x1024 app store icon is required for iOS apps</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>An iPhone Retina (4-inch) launch image for iOS 7.0 and later is required.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-76.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-76@2x.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-Small-40.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-Small-40@2x.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-Small.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-Small@2x.png]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcon" has 6 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][29x29][][][1x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-4.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-7.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][76x76][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-9.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][29x29][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][1x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-6.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][76x76][][][1x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-8.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][29x29][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-5.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-76.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-76@2x.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-Small-40.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-Small-40@2x.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-Small.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Icon-Small@2x.png]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcon" has 6 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][29x29][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][29x29][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-5.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][29x29][][][1x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-4.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][76x76][][][1x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-8.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][76x76][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-9.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][1x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-6.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][2x][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "49185-businessman-team-7.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+	</array>
 </dict>
 </plist>

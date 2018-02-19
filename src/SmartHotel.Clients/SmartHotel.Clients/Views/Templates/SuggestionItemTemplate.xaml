@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentView
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -72,36 +72,12 @@
                 Grid.Row="4"
                 Margin="0, 6, 0, 0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition />
                     <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition />
                 </Grid.ColumnDefinitions>
-                <controls:RatingControl
+
+                <Label 
                     Grid.Column="0"
-                    Rating="{Binding Rating}"
-                    Precision="Full"
-                    HorizontalOptions="Start"
-                    WidthRequest="150">
-                    <controls:RatingControl.ImageFullStar>
-                        <OnPlatform x:TypeArguments="ImageSource">
-                            <On Platform="Android, iOS" Value="ic_star_active" />
-                            <On Platform="UWP" Value="Assets/ic_star_active.png" />
-                        </OnPlatform>
-                    </controls:RatingControl.ImageFullStar>
-                    <controls:RatingControl.ImageEmptyStar>
-                        <OnPlatform x:TypeArguments="ImageSource">
-                            <On Platform="Android, iOS" Value="ic_star_normal" />
-                            <On Platform="UWP" Value="Assets/ic_star_normal.png" />
-                        </OnPlatform>
-                    </controls:RatingControl.ImageEmptyStar>
-                </controls:RatingControl>
-                <Label 
-                    Grid.Column="1"
-                    Text="{Binding Votes}"
-                    Style="{StaticResource SuggestionDescriptionStyle}"/>
-                <Label 
-                    Grid.Column="2"
-                    Text="votes"
+                    Text="Aurangabad, Maharashtra"
                     Style="{StaticResource SuggestionDescriptionStyle}"/>
             </Grid>
         </Grid>

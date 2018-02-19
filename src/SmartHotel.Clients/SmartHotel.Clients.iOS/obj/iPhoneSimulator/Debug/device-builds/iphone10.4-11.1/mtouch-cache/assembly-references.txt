@@ -88,10 +88,10 @@
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.dll
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.dll
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/Xamanimation.1.0.0/lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamanimation.dll
-/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/Microcharts.Forms.0.7.1-pre/lib/netstandard1.4/Microcharts.Forms.dll
-/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/SkiaSharp.Views.Forms.1.59.1/lib/XamariniOS/SkiaSharp.Views.Forms.dll
-/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/SkiaSharp.Views.1.59.1.1/lib/XamariniOS/SkiaSharp.Views.iOS.dll
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/Xamarin.Forms.Maps.2.4.0.282/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/Xamarin.FFImageLoading.Forms.2.2.17/lib/Xamarin.iOS10/FFImageLoading.Forms.Touch.dll
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/CarouselView.FormsPlugin.4.4.3/lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll
 /Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/Microsoft.Identity.Client.1.0.304142221-alpha/lib/Xamarin.iOS10/Microsoft.Identity.Client.Platform.dll
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/Microcharts.Forms.0.7.1-pre/lib/netstandard1.4/Microcharts.Forms.dll
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/SkiaSharp.Views.Forms.1.59.1/lib/XamariniOS/SkiaSharp.Views.Forms.dll
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/packages/SkiaSharp.Views.1.59.1.1/lib/XamariniOS/SkiaSharp.Views.iOS.dll
