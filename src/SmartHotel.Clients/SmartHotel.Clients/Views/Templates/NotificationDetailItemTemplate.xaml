@@ -22,7 +22,7 @@
         </ResourceDictionary>
     </ContentView.Resources>
     <ContentView.Content>
-        <Frame Margin="2,1,2,3" Padding="0" CornerRadius="10" IsClippedToBounds="true">
+        <Frame x:Name="itemFrame" Margin="2,1,2,3" Padding="0" CornerRadius="10" IsClippedToBounds="true" >
         <Grid
             Margin="0"
             BackgroundColor="#064e30">

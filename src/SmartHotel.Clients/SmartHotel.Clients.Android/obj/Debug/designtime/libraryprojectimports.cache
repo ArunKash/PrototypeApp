@@ -5,10 +5,9 @@
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/15/jl/bin/classes.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/17/jl/bin/classes.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/18/jl/bin/classes.jar</Jar>
-    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/41/jl/bin/classes.jar</Jar>
-    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/42/jl/support-annotations.jar</Jar>
+    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/25/jl/okhttp-2.3.0-jar-with-dependencies.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/43/jl/bin/classes.jar</Jar>
-    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/44/jl/bin/classes.jar</Jar>
+    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/44/jl/support-annotations.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/45/jl/bin/classes.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/46/jl/bin/classes.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/47/jl/bin/classes.jar</Jar>
@@ -21,12 +20,13 @@
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/54/jl/bin/classes.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/55/jl/bin/classes.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/56/jl/bin/classes.jar</Jar>
-    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/63/jl/classes.jar</Jar>
-    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/64/jl/classes.jar</Jar>
+    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/57/jl/bin/classes.jar</Jar>
+    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/58/jl/bin/classes.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/65/jl/classes.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/66/jl/classes.jar</Jar>
     <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/67/jl/classes.jar</Jar>
-    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/70/jl/okhttp-2.3.0-jar-with-dependencies.jar</Jar>
+    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/68/jl/classes.jar</Jar>
+    <Jar>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/69/jl/classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/0/jl/res</ResolvedResourceDirectory>
@@ -43,28 +43,28 @@
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/19/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/20/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/22/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/69/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/24/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/23/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/26/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/28/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/30/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/32/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/33/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/34/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/35/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/36/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/37/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/38/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/46/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/49/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/50/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/40/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/48/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/51/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/52/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/53/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/54/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/55/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/58/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/63/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/64/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/57/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/60/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/65/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/66/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/68/jl/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj/Debug/lp/0/jl/assets</ResolvedAssetDirectory>
@@ -81,19 +81,19 @@
     <ResolvedAssetDirectory>obj/Debug/lp/19/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/20/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/22/jl/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj/Debug/lp/69/jl/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj/Debug/lp/24/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/23/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/26/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/28/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/30/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/32/jl/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj/Debug/lp/33/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/34/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/35/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/36/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/37/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/38/jl/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj/Debug/lp/50/jl/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj/Debug/lp/58/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/40/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/52/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/60/jl/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
@@ -111,27 +111,27 @@
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/19.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/20.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/22.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/69.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/24.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/23.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/26.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/28.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/30.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/32.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/33.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/34.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/35.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/36.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/37.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/38.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/46.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/49.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/50.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/40.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/48.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/51.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/52.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/53.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/54.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/55.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/58.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/63.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/64.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/57.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/60.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/65.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/66.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.Android/obj/Debug/lp/68.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

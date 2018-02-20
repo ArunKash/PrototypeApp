@@ -37,6 +37,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
+        
         <Grid
             RowSpacing="0">
             <Grid.RowDefinitions>
@@ -72,10 +73,21 @@
                         Style="{StaticResource UsernameTextStyle}"/>
                 </StackLayout>
             </Grid>
+
+
             <Grid
                 Grid.Row="1">
+                <RelativeLayout>
+    <Image Source="TallSide.png" Opacity="1"
+                RelativeLayout.HeightConstraint=
+                  "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+    <Grid RelativeLayout.WidthConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            RelativeLayout.HeightConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Height}">
+                
                 <ListView 
-                    BackgroundColor="#cad16a"
+                    BackgroundColor="#77ffffff"
                     AutomationId="menu"
                     ItemsSource="{Binding MenuItems}" 
                     CachingStrategy="RecycleElement"
@@ -90,7 +102,12 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
+
+                </Grid>
+                    </RelativeLayout>
             </Grid>
+
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>

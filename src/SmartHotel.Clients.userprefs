@@ -1,11 +1,15 @@
 ﻿<Properties StartupConfiguration="{99CB58D3-40AE-46B4-BE78-83A0FE0B8F52}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SmartHotel.Clients/SmartHotel.Clients/Views/Templates/NotificationDetailItemTemplate.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Models/City.cs" Line="19" Column="46" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/ViewModels/BookingViewModel.cs" Line="154" Column="34" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/BookingView.xaml" Line="174" Column="31" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/Templates/NotificationDetailItemTemplate.xaml.cs" Line="12" Column="40" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/HomeView.xaml" Line="400" Column="17" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/MenuView.xaml" Line="113" Column="15" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/HomeView.xaml.cs" Line="21" Column="15" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/NotificationsView.xaml" Line="93" Column="15" />
       <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/Templates/NotificationDetailItemTemplate.xaml" Line="97" Column="15" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/Templates/NotificationDetailItemTemplate.xaml.cs" Line="116" Column="35" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/BookingCalendarView.xaml" Line="252" Column="15" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/BookingView.xaml" Line="298" Column="15" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients.iOS/Main.cs" Line="12" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

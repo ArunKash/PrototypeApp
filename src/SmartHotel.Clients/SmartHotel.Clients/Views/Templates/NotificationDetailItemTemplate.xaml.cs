@@ -117,5 +117,10 @@ namespace SmartHotel.Clients.Core.Views.Templates
             DeleteContainer.BackgroundColor = Color.FromHex("#F2F2F2");
             DeleteImage.Source = isUwp ? $"Assets/ic_paperbin_red.png" : $"ic_paperbin_red";
         }
+        protected override void OnChildAdded(Xamarin.Forms.Element child)
+        {
+            base.OnChildAdded(child);
+
+        }
     }
 }

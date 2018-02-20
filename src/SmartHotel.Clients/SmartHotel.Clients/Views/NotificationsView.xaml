@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage x:Name="Self" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SmartHotel.Clients.Core.Views.NotificationsView" xmlns:controls="clr-namespace:SmartHotel.Clients.Core.Controls;assembly=SmartHotel.Clients.Core" xmlns:templates="clr-namespace:SmartHotel.Clients.Core.Views.Templates;assembly=SmartHotel.Clients.Core" xmlns:utils="clr-namespace:SmartHotel.Clients.Core.Utils;assembly=SmartHotel.Clients.Core" xmlns:extensions="clr-namespace:SmartHotel.Clients.Core.MarkupExtensions" xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" utils:NavigationBarAttachedProperty.TextColor="{StaticResource WhiteColor}">
+<ContentPage x:Name="Self" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SmartHotel.Clients.Core.Views.NotificationsView" xmlns:controls="clr-namespace:SmartHotel.Clients.Core.Controls;assembly=SmartHotel.Clients.Core" xmlns:templates="clr-namespace:SmartHotel.Clients.Core.Views.Templates;assembly=SmartHotel.Clients.Core" xmlns:utils="clr-namespace:SmartHotel.Clients.Core.Utils;assembly=SmartHotel.Clients.Core" xmlns:extensions="clr-namespace:SmartHotel.Clients.Core.MarkupExtensions" xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation"  utils:NavigationBarAttachedProperty.TextColor="{StaticResource WhiteColor}">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="NoNotificationsTextStyle" TargetType="Label" BasedOn="{StaticResource PoppinsMediumLabelStyle}">
@@ -9,8 +9,36 @@
                 <Setter Property="VerticalOptions" Value="Center" />
                 <Setter Property="HorizontalTextAlignment" Value="Center" />
             </Style>
+            <xamanimation:StoryBoard 
+                x:Key="TouchpointTranslationAnimation" 
+                Target="{x:Reference TouchPointList}">
+                <xamanimation:TranslateToAnimation 
+                    TranslateY="0"
+                    Easing="CubicOut" 
+                    Duration="750" />
+            </xamanimation:StoryBoard>
+
+            <xamanimation:StoryBoard 
+                x:Key="ChartVisibility" 
+                Target="{x:Reference chartelement}">
+                <xamanimation:FadeToAnimation
+                    Opacity="1" 
+                    Easing="CubicOut" 
+                    Duration="750" />
+            </xamanimation:StoryBoard>
+            
         </ResourceDictionary>
     </ContentPage.Resources>
+
+     <ContentPage.Triggers>
+        <EventTrigger Event="Appearing">
+            <xamanimation:BeginAnimation 
+                Animation="{StaticResource TouchpointTranslationAnimation}" />
+                        <xamanimation:BeginAnimation 
+                Animation="{StaticResource ChartVisibility}" />
+        </EventTrigger>
+    </ContentPage.Triggers>
+    
     <ContentPage.Content>
         <Grid RowSpacing="0">
             <Grid.RowDefinitions>
@@ -38,10 +66,10 @@
                 
                 <Grid>
                     <Label IsVisible="{Binding HasItems, Converter={StaticResource InverseBoolConverter}}" Text="{extensions:Translate NoNotifications}" Style="{StaticResource NoNotificationsTextStyle}" />
-                    <ListView x:Name="NotificationList" BackgroundColor="Transparent" ItemsSource="{Binding Notifications, Mode=OneWay}" RowHeight="150" CachingStrategy="RecycleElement" SeparatorVisibility="None">
+                    <ListView TranslationY="300" x:Name="TouchPointList" BackgroundColor="Transparent" ItemsSource="{Binding Notifications, Mode=OneWay}" RowHeight="150" CachingStrategy="RecycleElement" SeparatorVisibility="None">
                         <ListView.Header>
                             <!-- Force header spacing on iOS to give space to back button -->
-                            <Image HeightRequest="200">
+                            <Image x:Name="chartelement" HeightRequest="200" Opacity="0" >
                                 <Image.Source>
                                     <OnPlatform x:TypeArguments="ImageSource">
                                         <On Platform="Android, iOS" Value="amCharts" />
@@ -52,7 +80,7 @@
                         </ListView.Header>
                         <ListView.ItemTemplate>
                             <DataTemplate>
-                                <ViewCell>
+                                <ViewCell >
                                     <templates:NotificationDetailItemTemplate DeleteCommand="{Binding BindingContext.DeleteNotificationCommand, Source={x:Reference Self}}" />
                                 </ViewCell>
                             </DataTemplate>

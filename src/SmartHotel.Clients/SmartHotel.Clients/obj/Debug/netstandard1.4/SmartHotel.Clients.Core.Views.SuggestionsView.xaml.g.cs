@@ -11,9 +11,8 @@
 namespace SmartHotel.Clients.Core.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360" +
-        "-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients/Views/Suggestions" +
-        "View.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel." +
+        "Clients/SmartHotel.Clients/Views/SuggestionsView.xaml")]
     public partial class SuggestionsView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

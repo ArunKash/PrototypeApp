@@ -147,6 +147,13 @@
     <BundleResource Include="Resources\dp2.png" />
     <BundleResource Include="Resources\dp1.png" />
     <BundleResource Include="Resources\amCharts.png" />
+    <BundleResource Include="Resources\Head-2.png" />
+    <BundleResource Include="Resources\Head-3.png" />
+    <BundleResource Include="Resources\Side-2.png" />
+    <BundleResource Include="Resources\Side-3.png" />
+    <BundleResource Include="Resources\Side-4.png" />
+    <BundleResource Include="Resources\NarrowSide.png" />
+    <BundleResource Include="Resources\TallSide.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Icon-60%403x.png" />

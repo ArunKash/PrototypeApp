@@ -11,8 +11,8 @@
 namespace SmartHotel.Clients {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360" +
-        "-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients/App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel." +
+        "Clients/SmartHotel.Clients/App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

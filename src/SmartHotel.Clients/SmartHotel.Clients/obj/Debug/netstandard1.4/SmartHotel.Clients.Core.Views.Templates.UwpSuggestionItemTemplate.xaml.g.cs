@@ -11,9 +11,8 @@
 namespace SmartHotel.Clients.Core.Views.Templates {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360" +
-        "-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients/Views/Templates/U" +
-        "wpSuggestionItemTemplate.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel." +
+        "Clients/SmartHotel.Clients/Views/Templates/UwpSuggestionItemTemplate.xaml")]
     public partial class UwpSuggestionItemTemplate : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

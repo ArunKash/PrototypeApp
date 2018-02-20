@@ -11,8 +11,8 @@
 namespace SmartHotel.Clients.Core.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartH" +
-        "otel.Clients/SmartHotel.Clients/Views/MenuView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel." +
+        "Clients/SmartHotel.Clients/Views/MenuView.xaml")]
     public partial class MenuView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

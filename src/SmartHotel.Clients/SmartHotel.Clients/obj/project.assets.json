@@ -5764,11 +5764,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cognizanttechnologysolutions/Documents/PrototypeAppBackUp/src/SmartHotel.Clients/SmartHotel.Clients/SmartHotel.Clients.csproj",
+      "projectUniqueName": "/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients/SmartHotel.Clients.csproj",
       "projectName": "SmartHotel.Clients",
-      "projectPath": "/Users/cognizanttechnologysolutions/Documents/PrototypeAppBackUp/src/SmartHotel.Clients/SmartHotel.Clients/SmartHotel.Clients.csproj",
+      "projectPath": "/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients/SmartHotel.Clients.csproj",
       "packagesPath": "/Users/cognizanttechnologysolutions/.nuget/packages/",
-      "outputPath": "/Users/cognizanttechnologysolutions/Documents/PrototypeAppBackUp/src/SmartHotel.Clients/SmartHotel.Clients/obj",
+      "outputPath": "/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

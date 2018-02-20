@@ -444,36 +444,3 @@
 /Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
 /Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
-bin/Debug/Acr.Support.Android.dll.mdb
-bin/Debug/Acr.UserDialogs.dll.mdb
-bin/Debug/FormsViewGroup.dll.mdb
-bin/Debug/Plugin.Geolocator.dll.mdb
-bin/Debug/Plugin.Permissions.dll.mdb
-bin/Debug/Plugin.Settings.Abstractions.dll.mdb
-bin/Debug/Plugin.Settings.dll.mdb
-bin/Debug/Xamanimation.dll.mdb
-bin/Debug/Xamarin.Forms.Core.dll.mdb
-bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
-bin/Debug/Xamarin.Forms.Xaml.dll.mdb
-bin/Debug/Mono.Android.pdb
-obj/Debug/linksrc/Acr.Support.Android.dll.mdb
-obj/Debug/linksrc/Acr.UserDialogs.dll.mdb
-obj/Debug/linksrc/FormsViewGroup.dll.mdb
-obj/Debug/linksrc/Plugin.Geolocator.dll.mdb
-obj/Debug/linksrc/Plugin.Permissions.dll.mdb
-obj/Debug/linksrc/Plugin.Settings.Abstractions.dll.mdb
-obj/Debug/linksrc/Plugin.Settings.dll.mdb
-obj/Debug/linksrc/Xamanimation.dll.mdb
-obj/Debug/linksrc/Xamarin.Forms.Core.dll.mdb
-obj/Debug/linksrc/Xamarin.Forms.Platform.Android.dll.mdb
-obj/Debug/linksrc/Xamarin.Forms.Xaml.dll.mdb
-obj/Debug/linksrc/SmartHotel.Clients.Android.pdb
-obj/Debug/linksrc/Acr.UserDialogs.Interface.pdb
-obj/Debug/linksrc/FFImageLoading.pdb
-obj/Debug/linksrc/FFImageLoading.Forms.pdb
-obj/Debug/linksrc/FFImageLoading.Forms.Droid.pdb
-obj/Debug/linksrc/FFImageLoading.Platform.pdb
-obj/Debug/linksrc/Mono.Android.pdb
-obj/Debug/linksrc/Plugin.Geolocator.Abstractions.pdb
-obj/Debug/linksrc/Plugin.Permissions.Abstractions.pdb
-obj/Debug/linksrc/SmartHotel.Clients.Core.pdb

@@ -127,8 +127,21 @@
                     <RowDefinition Height="7*" />
                 </Grid.RowDefinitions>
                 <!--Navigation -->
-                <Grid Grid.Row="0" BackgroundColor ="#064e30">
-                <StackLayout VerticalOptions="Center">
+                <Grid Grid.Row="0" >
+                <RelativeLayout>
+    <Image Source="Head-3.png" Opacity="0.3"
+                RelativeLayout.HeightConstraint=
+                  "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+    <Grid RelativeLayout.WidthConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            RelativeLayout.HeightConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Height}">
+
+
+                <StackLayout VerticalOptions="CenterAndExpand" RelativeLayout.WidthConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            RelativeLayout.HeightConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Height}" >
                         <Label BackgroundColor="Blue"/>
                         <Label BackgroundColor="Blue"/>
                         <Label BackgroundColor="Blue"/>
@@ -136,11 +149,22 @@
                     <Label Text="DASHBOARD" VerticalOptions="End" HorizontalOptions="Center" TextColor="White"  Font="Bold"></Label>
                     <Label BackgroundColor="Blue"/>
                     </StackLayout>
+                
+                        
+    </Grid>
+  </RelativeLayout>
                 </Grid>
+
+                <!--Inner Grid
+                <RowDefinition Height="1.5*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="7*" /> -->
+                
                 <!-- CAROUSEL -->
                 <Grid
                     Grid.Row="1" BackgroundColor="White">
-                    <Image 
+                    <Image x:Name="MonLogo"
+                        Opacity="0"
                         Margin="0, 30, 0, 12"
                         VerticalOptions="Start"
                         HorizontalOptions="Center"
@@ -159,7 +183,8 @@
                         HorizontalOptions="Center"
                         Aspect="AspectFit">
                     </Image> -->
-                      <Label
+                      <Label x:Name="WelcomeMsg"
+                        Opacity="0"
                         Text="Hello, Territory Manger!"
                         Style="{StaticResource BookTextStyle}"
                         HorizontalTextAlignment="Center"
@@ -195,8 +220,8 @@
 
                     </Grid.RowDefinitions>
                     <!-- BOOK A ROOM Touch Points-->
-                    <Frame Grid.Row="0"
-                        Grid.Column="1" Padding="0" CornerRadius="1" >
+                    <Frame Scale="0" Grid.Row="0"
+                        Grid.Column="1" Padding="0" CornerRadius="1" x:Name="TouchpointFrame" Opacity="0" >
                     <ContentView > 
                     
                     <Grid
@@ -237,8 +262,8 @@
                         </Frame>
 
                     <!-- BOOK CONFERENCE ROOM Sales -->
-                    <Frame Grid.Row="0"
-                        Grid.Column="3" Padding="0" CornerRadius="1">
+                    <Frame Scale="0" Grid.Row="0"
+                        Grid.Column="3" Padding="0" CornerRadius="1" x:Name="NearmeFrame" Opacity="0" >
                     <ContentView > 
                     <Grid RowSpacing="0"
                          >
@@ -280,8 +305,8 @@
 
                     <!-- RESTAURANT -->
 
-                    <Frame Grid.Row="2"
-                        Grid.Column="1" Padding="0" CornerRadius="1">
+                    <Frame Scale="0" Grid.Row="2"
+                        Grid.Column="1" Padding="0" CornerRadius="1" x:Name="ordersFrame" Opacity="0">
                     <ContentView >
 
                       <Grid
@@ -321,7 +346,7 @@
                     </Frame>
                             <!-- BOOK CONFERENCE ROOM -->
 
-                    <Frame Grid.Row="2"
+                    <Frame x:Name="ForecastFrame" Scale="0" Opacity="0" Grid.Row="2"
                         Grid.Column="3" Padding="0" CornerRadius="1">
                     <ContentView > 
 

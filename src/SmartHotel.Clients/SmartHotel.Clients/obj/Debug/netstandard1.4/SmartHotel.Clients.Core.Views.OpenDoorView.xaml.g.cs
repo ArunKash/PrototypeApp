@@ -11,9 +11,8 @@
 namespace SmartHotel.Clients.Core.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Documents/Xamarin POC/Prototype/SmartHotel360" +
-        "-mobile-desktop-apps/src/SmartHotel.Clients/SmartHotel.Clients/Views/OpenDoorVie" +
-        "w.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel." +
+        "Clients/SmartHotel.Clients/Views/OpenDoorView.xaml")]
     public partial class OpenDoorView : global::Rg.Plugins.Popup.Pages.PopupPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

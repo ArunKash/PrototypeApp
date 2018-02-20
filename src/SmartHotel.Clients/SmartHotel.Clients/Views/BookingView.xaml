@@ -19,7 +19,7 @@
                 <xamanimation:TranslateToAnimation 
                     TranslateY="0"
                     Easing="CubicOut" 
-                    Duration="750" />
+                    Duration="1600" />
             </xamanimation:StoryBoard>
             
             <Color x:Key="SearchTextColor">#48959B</Color>
@@ -195,7 +195,7 @@
                         <ListView 
                             x:Name="Suggestions" 
 
-                            TranslationY="150"
+                            TranslationY="300"
                             ItemsSource="{Binding Touchpoints}"          
                            
                             Style="{StaticResource SuggestionsListStyle}">
