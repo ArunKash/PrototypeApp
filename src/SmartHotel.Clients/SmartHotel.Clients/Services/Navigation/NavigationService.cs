@@ -8,10 +8,12 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
+
 namespace SmartHotel.Clients.Core.Services.Navigation
 {
     public partial class NavigationService : INavigationService
     {
+        private SmartHotel.Clients.Core.Models.Notification LocalNotif;
         private readonly IAuthenticationService _authenticationService;
         protected readonly Dictionary<Type, Type> _mappings;
 
@@ -88,7 +90,16 @@ namespace SmartHotel.Clients.Core.Services.Navigation
 
         protected virtual async Task InternalNavigateToAsync(Type viewModelType, object parameter)
         {
+            ViewModelBase viewModel = Locator.Instance.Resolve(viewModelType) as ViewModelBase;
+
+
+            if (viewModel is BookingViewModel)
+            {
+                LocalNotif = (parameter as SmartHotel.Clients.Core.Models.Notification);
+            }
             Page page = CreateAndBindPage(viewModelType, parameter);
+
+
 
             if (page is MainView)
             {
@@ -124,6 +135,12 @@ namespace SmartHotel.Clients.Core.Services.Navigation
             {
                 var navigationPage = CurrentApplication.MainPage as CustomNavigationPage;
 
+                if (page is BookingView)
+                {
+
+                    (page as BookingView).bGColor = (parameter as SmartHotel.Clients.Core.Models.Notification).colorHex;
+                }
+
                 if (navigationPage != null)
                 {
                     await navigationPage.PushAsync(page);
@@ -133,6 +150,8 @@ namespace SmartHotel.Clients.Core.Services.Navigation
                     CurrentApplication.MainPage = new CustomNavigationPage(page);
                 }
             }
+
+           
 
             await (page.BindingContext as ViewModelBase).InitializeAsync(parameter);
         }
@@ -157,7 +176,16 @@ namespace SmartHotel.Clients.Core.Services.Navigation
             }
 
             Page page = Activator.CreateInstance(pageType) as Page;
+
+
+
             ViewModelBase viewModel = Locator.Instance.Resolve(viewModelType) as ViewModelBase;
+
+            if(viewModel is BookingViewModel){
+                (viewModel as BookingViewModel).TitleBarColor = LocalNotif.colorHex;
+                (viewModel as BookingViewModel).TitleNumbers = LocalNotif.Text;
+                (viewModel as BookingViewModel).TitleAccoutName = LocalNotif.AccName;
+            }
             page.BindingContext = viewModel;
 
             return page;

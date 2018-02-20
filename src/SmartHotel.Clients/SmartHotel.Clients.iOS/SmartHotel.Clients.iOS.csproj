@@ -154,6 +154,9 @@
     <BundleResource Include="Resources\Side-4.png" />
     <BundleResource Include="Resources\NarrowSide.png" />
     <BundleResource Include="Resources\TallSide.png" />
+    <BundleResource Include="Resources\nav.png" />
+    <BundleResource Include="Resources\cornField.png" />
+    <BundleResource Include="Resources\fonts\fontawesome-webfont.ttf" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Icon-60%403x.png" />

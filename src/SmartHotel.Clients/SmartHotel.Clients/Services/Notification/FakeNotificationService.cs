@@ -11,10 +11,10 @@ namespace SmartHotel.Clients.Core.Services.Notification
         {
             var data = new List<Models.Notification>
             {
-                new Models.Notification { Text = "Plan 30 \nActual 15", Type = NotificationType.BeGreen },
-                new Models.Notification { Text = "Plan 15 \nActual 10", Type = NotificationType.Room },
-                new Models.Notification { Text = "Plan 29 \nActual 14", Type = NotificationType.Hotel },
-                new Models.Notification { Text = "Plan 05 \nActual 02", Type = NotificationType.Other }
+                new Models.Notification { AccName="TouchPoint Program #1", Text = "Plan 30 \nActual 15", Type = NotificationType.BeGreen , colorHex="#68a8f0" },
+                new Models.Notification { AccName="TouchPoint Program #3",Text = "Plan 15 \nActual 10", Type = NotificationType.Room ,colorHex="#d44aa9" },
+                new Models.Notification { AccName="TouchPoint Program #2",Text = "Plan 29 \nActual 14", Type = NotificationType.Hotel, colorHex="#dea343" },
+                new Models.Notification { AccName="TouchPoint Program #4",Text = "Plan 05 \nActual 02", Type = NotificationType.Other, colorHex="#85a746" }
             };
 
             return Task.FromResult(data.AsEnumerable());

@@ -168,11 +168,16 @@
                 -->
 
 
-
-                <StackLayout Grid.Row="0" BackgroundColor="#064e30" HorizontalOptions="FillAndExpand" Orientation="Horizontal" VerticalOptions="FillAndExpand" >
-
+                <Frame Padding="0">
+                <StackLayout Grid.Row="0" BackgroundColor="{Binding TitleBarColor} " HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="FillAndExpand" >
+                <Label Text=" "/>
+                    <Label Text=" "/>
+                    <Label Text="{Binding TitleAccoutName}" TextColor="Black" FontSize="40" Font="Bold" HorizontalOptions="CenterAndExpand"/>
+                    <Label Text="{Binding TitleNumbers}" TextColor="Black" FontSize="10" Font="Bold" HorizontalOptions="CenterAndExpand"/>
+                    
                 </StackLayout>
-
+                </Frame>
+                    
                 <Label 
                     Grid.Row="0"
                     Text=""

@@ -78,7 +78,8 @@
             <Grid
                 Grid.Row="1">
                 <RelativeLayout>
-    <Image Source="TallSide.png" Opacity="1"
+    <Image Source="cornField.png" Opacity="1"
+                        Aspect="AspectFill"
                 RelativeLayout.HeightConstraint=
                   "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
     <Grid RelativeLayout.WidthConstraint=

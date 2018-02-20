@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:converters="clr-namespace:SmartHotel.Clients.Core.Converters;assembly=SmartHotel.Clients.Core"
@@ -15,7 +15,7 @@
             <Color x:Key="BlackTextColor">#253748</Color>
             <Color x:Key="BlueColor">#0072C6</Color>
             <Color x:Key="GreenColor">#368F94</Color>
-            <Color x:Key="OrangeColor">#BC4C1B</Color>
+            <Color x:Key="OrangeColor">#395526</Color>
             <Color x:Key="LightOrangeColor">#D87E56</Color>
             <Color x:Key="WhiteColor">#FFFFFF</Color>
             <Color x:Key="ValidationErrorColor">#FF204F</Color>

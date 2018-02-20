@@ -1,23 +1,16 @@
 ﻿<Properties StartupConfiguration="{99CB58D3-40AE-46B4-BE78-83A0FE0B8F52}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmartHotel.Clients/SmartHotel.Clients/Views/NotificationsView.xaml">
     <Files>
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/HomeView.xaml" Line="400" Column="17" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/MenuView.xaml" Line="113" Column="15" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/HomeView.xaml.cs" Line="21" Column="15" />
+      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/HomeView.xaml" Line="240" Column="53" />
       <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/NotificationsView.xaml" Line="93" Column="15" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/Templates/NotificationDetailItemTemplate.xaml" Line="97" Column="15" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/Templates/NotificationDetailItemTemplate.xaml.cs" Line="116" Column="35" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/BookingCalendarView.xaml" Line="252" Column="15" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients/Views/BookingView.xaml" Line="298" Column="15" />
-      <File FileName="SmartHotel.Clients/SmartHotel.Clients.iOS/Main.cs" Line="12" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Targets.SmartHotel.Clients.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FD52E5B1-8D93-49F5-9A8F-28D85D4B1BA2" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.Targets.SmartHotel.Clients.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.6c4617abfd15b6df9307f0e3396e4d29e947f887" automaticSigning="False" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Targets.SmartHotel.Clients.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
 </Properties>

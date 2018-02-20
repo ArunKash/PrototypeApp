@@ -5,6 +5,7 @@ namespace SmartHotel.Clients.Core.Views
 {
     public partial class BookingView : ContentPage
     {
+        public string bGColor;
         public BookingView()
         {
             if (Device.RuntimePlatform != Device.iOS)

@@ -935,3 +935,12 @@
 /Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Side-4.png
 /Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/NarrowSide.png
 /Users/cognizanttechnologysolutions/Documents/GitHub/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/TallSide.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Head-2.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Head-3.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Side-2.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Side-3.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/Side-4.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/NarrowSide.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/TallSide.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/nav.png
+/Users/cognizanttechnologysolutions/Desktop/Prototype App/PrototypeApp/src/SmartHotel.Clients/SmartHotel.Clients.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/cornField.png

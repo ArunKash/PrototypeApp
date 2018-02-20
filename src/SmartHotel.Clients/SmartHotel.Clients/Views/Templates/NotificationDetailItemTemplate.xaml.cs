@@ -45,7 +45,7 @@ namespace SmartHotel.Clients.Core.Views.Templates
             TouchpointItem.GestureRecognizers.Add(itemTapGesture);
            
 
-            DeleteImage.GestureRecognizers.Add(tapGesture);
+            //DeleteImage.GestureRecognizers.Add(tapGesture);
             InitializeCell();
         }
 
@@ -57,8 +57,8 @@ namespace SmartHotel.Clients.Core.Views.Templates
                 {
                     var isUwp = Device.RuntimePlatform == Device.UWP;
 
-                    DeleteContainer.BackgroundColor = Color.FromHex("#EC0843");
-                    DeleteImage.Source =  isUwp ? $"Assets/ic_paperbin.png" : $"ic_paperbin";
+                    //DeleteContainer.BackgroundColor = Color.FromHex("#EC0843");
+                    //DeleteImage.Source =  isUwp ? $"Assets/ic_paperbin.png" : $"ic_paperbin";
 
                     await this.TranslateTo(-this.Width, 0, 500, Easing.SinIn);
 
@@ -80,7 +80,7 @@ namespace SmartHotel.Clients.Core.Views.Templates
                     //push asyn to the Summary page
                     //Debug.WriteLine("it gets here!");
 
-                    await NavigationService.NavigateToAsync<BookingViewModel>();
+                    await NavigationService.NavigateToAsync<BookingViewModel>(BindingContext);
 
 
 
@@ -114,8 +114,8 @@ namespace SmartHotel.Clients.Core.Views.Templates
             var isUwp = Device.RuntimePlatform == Device.UWP;
 
             this.TranslationX = 0;
-            DeleteContainer.BackgroundColor = Color.FromHex("#F2F2F2");
-            DeleteImage.Source = isUwp ? $"Assets/ic_paperbin_red.png" : $"ic_paperbin_red";
+            //DeleteContainer.BackgroundColor = Color.FromHex("#F2F2F2");
+            //eleteImage.Source = isUwp ? $"Assets/ic_paperbin_red.png" : $"ic_paperbin_red";
         }
         protected override void OnChildAdded(Xamarin.Forms.Element child)
         {

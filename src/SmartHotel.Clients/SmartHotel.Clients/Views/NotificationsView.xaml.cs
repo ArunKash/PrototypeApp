@@ -15,6 +15,23 @@ namespace SmartHotel.Clients.Core.Views
         public NotificationsView()
         {
             InitializeComponent();
+            var view = new BoxView();
+            view.BackgroundColor = Color.Red;
+
+            var webVc = new WebView();
+            //Chart-Edit
+            webVc.Source = "http://triphyllous-silver.000webhostapp.com";
+            webVc.VerticalOptions = LayoutOptions.FillAndExpand;
+            webVc.HeightRequest = 400;
+
+            var layout = new StackLayout
+            {
+                Children = {
+                    webVc
+                }
+            };
+
+            TouchPointList.Header = layout;
         }
 
 

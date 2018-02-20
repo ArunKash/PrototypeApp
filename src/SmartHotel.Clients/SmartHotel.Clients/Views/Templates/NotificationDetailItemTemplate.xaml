@@ -25,72 +25,91 @@
         <Frame x:Name="itemFrame" Margin="2,1,2,3" Padding="0" CornerRadius="10" IsClippedToBounds="true" >
         <Grid
             Margin="0"
+                ColumnSpacing="0"
             BackgroundColor="#064e30">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="7*" />
             </Grid.ColumnDefinitions>
 
-            <!-- Base Column 0 -->                       
+                            <!-- The Left Payne -->                       
+
+                
+            <Grid Grid.Column="0" BackgroundColor="{Binding colorHex}"> 
+                <Grid.RowDefinitions>
+                <RowDefinition Height="*"/> 
+                <RowDefinition Height="*"/>
+                 <RowDefinition Height="0.5*"/> 
+                  <RowDefinition Height="0.5*"/>      
+                 <RowDefinition Height="Auto"/>
+                        
+              
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.Row="1" 
+                        
+                        Source="{Binding Type, Converter={StaticResource NotificationTypeToIconConverter}, ConverterParameter=_2}"
+                    VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                    Aspect="AspectFit"
+                    />
+                    <Label Grid.Row="2" Text="Today" VerticalOptions="End"
+                        HorizontalOptions="Center" FontSize="15" Font="Bold" TextColor="Black"/>
+                    <Label Grid.Row="3" Text="12/12/2018" VerticalOptions="Start"
+                        HorizontalOptions="Center" FontSize="10" TextColor="Silver"/>
+
+                </Grid>
+
+
+
+                <!-- Base Column 0 -->                       
             <Grid  x:Name="TouchpointItem"
-                Grid.Column="0" 
-              BackgroundColor="#064e30"
+                Grid.Column="1" 
+              BackgroundColor="#EFEFF4"
                 Padding="5"
-                ColumnSpacing="5">
+                    RowSpacing="0"
+                ColumnSpacing="0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="Auto" />  
                     <RowDefinition />
                 </Grid.RowDefinitions>
-                <Image
+               <!-- <Image
                     Grid.Column="0"
                     Grid.RowSpan="2"
                     Source="{Binding Type, Converter={StaticResource NotificationTypeToIconConverter}, ConverterParameter=_2}"
                     HeightRequest="32"
                     Aspect="AspectFit"
                     VerticalOptions="Start"
-                    Margin="5" />
-                <Label 
-                    Grid.Column="1"
-                    Grid.Row="0"
-                    Text="{Binding Type, Converter={StaticResource NotificationTypeToTitleConverter}}"
-                    TextColor="White"
-                    Font="Bold, 20"
-                    Style="{StaticResource SuggestionTitleStyle}"/>
+                    Margin="5" /> -->
                 <Label 
                     Grid.Column="1"
                     Grid.Row="1"
+                    Text="{Binding AccName}"
+                    TextColor="Black"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Start"
+                    Font="Bold, 18"
+                    Style="{StaticResource SuggestionTitleStyle}"/>
+                <Label 
+                    Grid.Column="1"
+                    Grid.Row="3"
+
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
                     Text="{Binding Text}"
                     TextColor="#ca7625"  
                     FontSize="15"
                     Style="{StaticResource SuggestionDescriptionStyle}"/>
             </Grid>
-            <Grid
-                x:Name="DeleteContainer"
-                Grid.Column="1"
-                VerticalOptions="Fill"
-                BackgroundColor="#064e30">
-                <Image
-                    x:Name="DeleteImage"
-                    Aspect="AspectFit"
-                    VerticalOptions="Center"
-                    Margin="5">
-                    <Image.HeightRequest>
-                        <OnPlatform x:TypeArguments="x:Double">
-                            <On Platform="Android" Value="36" />
-                            <On Platform="UWP" Value="32" />
-                            <On Platform="iOS" Value="28" />
-                        </OnPlatform>
-                    </Image.HeightRequest>
-                    <Image.Source>
-                        <OnPlatform x:TypeArguments="ImageSource">
-                        </OnPlatform>
-                    </Image.Source>
-                </Image>
-            </Grid>
+
         </Grid>
             </Frame>
     </ContentView.Content>

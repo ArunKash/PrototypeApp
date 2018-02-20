@@ -47,7 +47,10 @@
             </Grid.RowDefinitions>
 
              <!--Navigation -->
+            
                 <Grid Grid.Row="0" BackgroundColor ="#064e30">
+
+                
                 <StackLayout VerticalOptions="Center">
                         <Label BackgroundColor="Blue"/>
                         <Label BackgroundColor="Blue"/>
@@ -59,6 +62,8 @@
                         
                         <Label BackgroundColor="Blue"/>
                     </StackLayout>
+
+                
                 </Grid>
             
            <!-- <controls:iOSStatusBarBackground Grid.Row="0"  BackgroundColor="Green" />-->
@@ -66,7 +71,7 @@
                 
                 <Grid>
                     <Label IsVisible="{Binding HasItems, Converter={StaticResource InverseBoolConverter}}" Text="{extensions:Translate NoNotifications}" Style="{StaticResource NoNotificationsTextStyle}" />
-                    <ListView TranslationY="300" x:Name="TouchPointList" BackgroundColor="Transparent" ItemsSource="{Binding Notifications, Mode=OneWay}" RowHeight="150" CachingStrategy="RecycleElement" SeparatorVisibility="None">
+                    <ListView TranslationY="300" x:Name="TouchPointList" BackgroundColor="Transparent" ItemsSource="{Binding Notifications, Mode=OneWay}" RowHeight="125" CachingStrategy="RecycleElement" SeparatorVisibility="None">
                         <ListView.Header>
                             <!-- Force header spacing on iOS to give space to back button -->
                             <Image x:Name="chartelement" HeightRequest="200" Opacity="0" >

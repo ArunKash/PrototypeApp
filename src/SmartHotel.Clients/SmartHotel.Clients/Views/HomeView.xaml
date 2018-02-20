@@ -129,7 +129,7 @@
                 <!--Navigation -->
                 <Grid Grid.Row="0" >
                 <RelativeLayout>
-    <Image Source="Head-3.png" Opacity="0.3"
+    <Image Source="nav" Opacity="0.3"
                 RelativeLayout.HeightConstraint=
                   "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
     <Grid RelativeLayout.WidthConstraint=
@@ -185,7 +185,7 @@
                     </Image> -->
                       <Label x:Name="WelcomeMsg"
                         Opacity="0"
-                        Text="Hello, Territory Manger!"
+                        Text="Hello, Territory Manager!"
                         Style="{StaticResource BookTextStyle}"
                         HorizontalTextAlignment="Center"
                         VerticalTextAlignment="Center"
@@ -231,7 +231,12 @@
                             <RowDefinition Height="75*" />
                             <RowDefinition Height="25*" />
                         </Grid.RowDefinitions>
-                              
+
+                        <Label Grid.Row="0"
+                            Grid.RowSpan="1"
+                             Text="&#xf0b1;" FontFamily="FontAwesome"  FontSize="70" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  TextColor="#917755" BackgroundColor="Transparent"
+                                  StyleId="fontawesome-webfont.ttf" HeightRequest="30" />
+                                <!--
                         <ffimageloading:CachedImage 
                             Grid.Row="0"
                             Grid.RowSpan="1"
@@ -243,7 +248,7 @@
                                 </OnPlatform>
                             </ffimageloading:CachedImage.Source>
                         </ffimageloading:CachedImage>
-
+                        -->
                                 <Grid   
                             Grid.Row="1"
                             BackgroundColor="{StaticResource OrangeColor}">
@@ -272,12 +277,11 @@
                             <RowDefinition Height="25*" />
                         </Grid.RowDefinitions>
 
-                                <Image Grid.Row="0"
-                                    Grid.RowSpan="1"
-                            Aspect="AspectFill"
-                                    Source="newLeads">
 
-                                </Image>
+                        <Label Grid.Row="0"
+                            Grid.RowSpan="1"
+                             Text="&#xf14e;" FontFamily="FontAwesome" FontSize="70" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="#69B8F4" BackgroundColor="Transparent"
+                                  StyleId="fontawesome-webfont.ttf" HeightRequest="30" />
                
                        
 
@@ -317,17 +321,11 @@
                             <RowDefinition Height="75*" />
                             <RowDefinition Height="25*" />
                         </Grid.RowDefinitions>
-                        <ffimageloading:CachedImage 
-                            Grid.Row="0"
+
+                        <Label Grid.Row="0"
                             Grid.RowSpan="1"
-                            Aspect="AspectFill">
-                            <ffimageloading:CachedImage.Source>
-                                <OnPlatform x:TypeArguments="ImageSource">
-                                    <On Platform="Android, iOS" Value="newLeads" />
-                                    <On Platform="UWP" Value="Assets/img_1.png" />
-                                </OnPlatform>
-                            </ffimageloading:CachedImage.Source>
-                        </ffimageloading:CachedImage>
+                             Text="&#xf201;" FontFamily="FontAwesome" FontSize="70" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  TextColor="#38D753" BackgroundColor="Transparent"
+                                  StyleId="fontawesome-webfont.ttf" HeightRequest="30" />
                         <Grid   
                             Grid.Row="1"
                             BackgroundColor="{StaticResource OrangeColor}">
@@ -335,6 +333,7 @@
                                 Text="Orders"
                                 Style="{StaticResource BookTextStyle}"
                                 Font="Bold, 10"/>
+                                    
                         </Grid>
                         <Grid.GestureRecognizers>
                             <TapGestureRecognizer 
@@ -358,17 +357,11 @@
                             <RowDefinition Height="75*" />
                             <RowDefinition Height="25*" />
                         </Grid.RowDefinitions>
-                        <ffimageloading:CachedImage 
-                            Grid.Row="0"
+
+                        <Label Grid.Row="0"
                             Grid.RowSpan="1"
-                            Aspect="AspectFill">
-                            <ffimageloading:CachedImage.Source>
-                                <OnPlatform x:TypeArguments="ImageSource">
-                                    <On Platform="Android, iOS" Value="newLeads" />
-                                    <On Platform="UWP" Value="Assets/img_1.png" />
-                                </OnPlatform>
-                            </ffimageloading:CachedImage.Source>
-                        </ffimageloading:CachedImage>
+                             Text="&#xf06e;" FontFamily="FontAwesome" FontSize="70" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" BackgroundColor="Transparent"
+                                  StyleId="fontawesome-webfont.ttf" HeightRequest="30" />
                         <Grid   
                             Grid.Row="1"
                             BackgroundColor="{StaticResource OrangeColor}">

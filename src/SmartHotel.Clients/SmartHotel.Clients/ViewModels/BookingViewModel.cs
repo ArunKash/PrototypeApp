@@ -23,6 +23,7 @@ namespace SmartHotel.Clients.Core.ViewModels
         private IEnumerable<Models.City> _cities;
         private IEnumerable<City> ListItem;
         private IEnumerable<string> _suggestions;
+        private String colorings;
         private City _anyItem;
         private string _suggestion;
         private bool _isNextEnabled;
@@ -73,7 +74,11 @@ namespace SmartHotel.Clients.Core.ViewModels
             }
         }
 
+        public string TitleBarColor { get { return colorings; } set { colorings = value; OnPropertyChanged();} }
 
+        public string TitleAccoutName { get; set; }
+
+        public string TitleNumbers { get; set; }
 
         public string Suggestion
         {
@@ -119,7 +124,7 @@ namespace SmartHotel.Clients.Core.ViewModels
             try
             {
                 IsBusy = true;
-
+                TitleBarColor = (navigationData as Notification).colorHex;
                 _cities = await _hotelService.GetCitiesAsync();
                 Touchpoints = TouchPointMaker();
                 Suggestions = new List<string>(_cities.Select(c => c.ToString()));
